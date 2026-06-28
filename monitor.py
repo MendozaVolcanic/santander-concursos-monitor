@@ -127,7 +127,10 @@ def card_html(c: dict, nuevo: bool) -> str:
     nuevo_badge = '<span class="badge nuevo">NUEVO</span>' if nuevo else ""
     fecha = f"{c.get('mes') or ''} {c.get('anio') or ''}".strip()
     img = c.get("imagen") or ""
-    img_html = f'<img src="{img}" alt="" loading="lazy">' if img else '<div class="noimg"></div>'
+    # referrerpolicy=no-referrer: el CDN de Santander bloquea el hotlink si llega
+    # un referrer de otro dominio (github.io). Sin referrer, sirve la imagen.
+    img_html = (f'<img src="{img}" alt="" loading="lazy" referrerpolicy="no-referrer">'
+                if img else '<div class="noimg"></div>')
     return f"""
       <a class="card" href="{c['url']}" target="_blank" rel="noopener">
         {img_html}

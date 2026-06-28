@@ -695,6 +695,10 @@
       "first_seen": "2000-01-01T00:00:00-04:00"
     }
   },
+<<<<<<< HEAD
   "last_check": "2026-06-28T01:31:23.265803-04:00",
+=======
+  "last_check": "2026-06-28T01:32:45.642588-04:00",
+>>>>>>> 0532dc5 (fix: imagenes del dashboard con referrerpolicy=no-referrer)
   "total": 99
 }
