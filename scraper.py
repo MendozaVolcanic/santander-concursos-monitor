@@ -30,7 +30,7 @@ MES_NUM = {
 
 # "Titulo larguisimo Junio 2026 Ver bases" -> (titulo, mes, anio, accion)
 _RE = re.compile(
-    rf"^(.*?)\s+({MESES})\s+(\d{{4}})\s+(Ver bases|Ver ganadores)\s*$",
+    rf"^(.*?)\s+({MESES})\s+(\d{{4}})\s+(Ver bases|Ver ganadores|Ver anexo)\s*$",
     re.IGNORECASE | re.DOTALL,
 )
 

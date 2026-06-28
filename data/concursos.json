@@ -323,6 +323,13 @@
       "anio": 2026,
       "first_seen": "2000-01-01T00:00:00-04:00"
     },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/anexo-invita-y-gana-2": {
+      "titulo": "Anexo Bases concurso Invita y Gana Cuenta Corriente Digital",
+      "tipo": "bases",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
     "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-actualiza-tu-renta-cashback": {
       "titulo": "Ganadores Concurso Actualiza tu renta - cashback",
       "tipo": "ganadores",
@@ -673,32 +680,21 @@
       "anio": 2026,
       "first_seen": "2000-01-01T00:00:00-04:00"
     },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/anexo-bases-concurso-vina-life": {
+      "titulo": "Anexo - Bases Concurso Viña Life",
+      "tipo": "bases",
+      "mes": "Enero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
     "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/resultados-concurso-vina-diciembre": {
       "titulo": "Resultados Concurso Viña diciembre",
       "tipo": "ganadores",
       "mes": "Enero",
       "anio": 2026,
       "first_seen": "2000-01-01T00:00:00-04:00"
-    },
-    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/anexo-invita-y-gana-2": {
-      "titulo": "Anexo Bases concurso Invita y Gana Cuenta Corriente Digital Abril 2026 Ver anexo",
-      "tipo": "bases",
-      "mes": null,
-      "anio": null,
-      "first_seen": "2000-01-01T00:00:00-04:00"
-    },
-    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/anexo-bases-concurso-vina-life": {
-      "titulo": "Anexo - Bases Concurso Viña Life Enero 2026 Ver anexo",
-      "tipo": "bases",
-      "mes": null,
-      "anio": null,
-      "first_seen": "2000-01-01T00:00:00-04:00"
     }
   },
-<<<<<<< HEAD
-  "last_check": "2026-06-28T01:31:23.265803-04:00",
-=======
-  "last_check": "2026-06-28T01:32:45.642588-04:00",
->>>>>>> 0532dc5 (fix: imagenes del dashboard con referrerpolicy=no-referrer)
+  "last_check": "2026-06-28T01:42:45.204858-04:00",
   "total": 99
 }
