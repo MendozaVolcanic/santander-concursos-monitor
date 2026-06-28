@@ -1,0 +1,700 @@
+{
+  "first_run": false,
+  "concursos": {
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-sorteo-experiencia-formula-1-select": {
+      "titulo": "Bases Sorteo Experiencia Formula 1 Select",
+      "tipo": "bases",
+      "mes": "Junio",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/anexo-bases-concurso-invita-y-gana-cuenta-corriente-digital": {
+      "titulo": "Anexo Bases concurso Invita y Gana Cuenta Corriente Digital",
+      "tipo": "bases",
+      "mes": "Junio",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-avant-premiere-la-odisea": {
+      "titulo": "Bases concurso Avant Premiere La Odisea",
+      "tipo": "bases",
+      "mes": "Junio",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/activa-tu-ahorro-automatico": {
+      "titulo": "Activa tu Ahorro Automático",
+      "tipo": "bases",
+      "mes": "Junio",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/sorteo-millas-dia-del-padre-2026": {
+      "titulo": "Sorteo millas día del padre",
+      "tipo": "bases",
+      "mes": "Junio",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-promocion-cashbak-suscripcion-cuenta-corriente-digital": {
+      "titulo": "Bases Promoción Cashback Suscripción Cuenta Corriente Digital",
+      "tipo": "bases",
+      "mes": "Junio",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-campana-apertura-de-cuenta-con-santander-en-tu-barrio": {
+      "titulo": "Bases Campaña Apertura de Cuenta con Santander en tu Barrio",
+      "tipo": "bases",
+      "mes": "Junio",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/sorteo-estadia-hotel-awa": {
+      "titulo": "Sorteo estadía Hotel AWA",
+      "tipo": "bases",
+      "mes": "Junio",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-millas-dia-de-la-madre": {
+      "titulo": "Ganadores Concurso Millas Día de la Madre",
+      "tipo": "ganadores",
+      "mes": "Junio",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/sorteo-millas-3-cuotas-sin-interes-cyber": {
+      "titulo": "Sorteo Millas 3 Cuotas Sin Interés Cyber",
+      "tipo": "ganadores",
+      "mes": "Junio",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-fondos-concursables-2026": {
+      "titulo": "Bases Fondos Concursables 2026",
+      "tipo": "bases",
+      "mes": "Mayo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-consumo-rosalia": {
+      "titulo": "Bases Concurso Consumo - Rosalía",
+      "tipo": "bases",
+      "mes": "Mayo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-sorteo-experiencia-formula-1": {
+      "titulo": "Bases Sorteo Experiencia Formula 1",
+      "tipo": "bases",
+      "mes": "Mayo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-la-cenicienta": {
+      "titulo": "Ganadores SMUSIC - La Cenicienta",
+      "tipo": "ganadores",
+      "mes": "Mayo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-sorteo-macbook-pro": {
+      "titulo": "Bases Sorteo MacBook Pro",
+      "tipo": "bases",
+      "mes": "Mayo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-rosalia-cuenta-corriente-digital": {
+      "titulo": "Bases Concurso Rosalía - Cuenta Corriente Digital",
+      "tipo": "bases",
+      "mes": "Mayo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/resultados-concurso-maria-y-el-secreto-del-ahorro": {
+      "titulo": "Resultados concurso “María y el secreto del ahorro” - Redes Sociales",
+      "tipo": "ganadores",
+      "mes": "Mayo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-jonas-brothers": {
+      "titulo": "Ganadores SMUSIC - Jonas Brothers",
+      "tipo": "ganadores",
+      "mes": "Mayo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-hot-wheels-monster-trucks": {
+      "titulo": "Bases Concurso Hot Wheels Monster Trucks - Cuenta Corriente Digital",
+      "tipo": "bases",
+      "mes": "Mayo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/resultados-concurso-jonas-brothers-cuenta-corriente-digital": {
+      "titulo": "Resultados Concurso Jonas Brothers - Cuenta Corriente Digital",
+      "tipo": "ganadores",
+      "mes": "Mayo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-fifa": {
+      "titulo": "Ganadores FIFA",
+      "tipo": "ganadores",
+      "mes": "Mayo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-rrs-cascos-rojos": {
+      "titulo": "Ganadores Concurso RRS \"Cascos Rojos\"",
+      "tipo": "ganadores",
+      "mes": "Mayo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/sorteo-millas-dia-de-la-madre": {
+      "titulo": "Sorteo millas día de la madre",
+      "tipo": "bases",
+      "mes": "Mayo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-the-lumineers-cuenta-corriente-digital": {
+      "titulo": "Resultados Concurso The Lumineers - Cuenta Corriente Digital",
+      "tipo": "ganadores",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-the-lumineers": {
+      "titulo": "Ganadores SMUSIC - The Lumineers",
+      "tipo": "ganadores",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-millas-3csi": {
+      "titulo": "Ganadores concurso millas 3CSI",
+      "tipo": "ganadores",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-10-csi-educacion-sorteo-millas": {
+      "titulo": "Ganadores 10 CSI educación - Sorteo millas",
+      "tipo": "ganadores",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-recibe-tu-sueldo-en-santander": {
+      "titulo": "Bases Concurso Recibe tu sueldo en Santander",
+      "tipo": "bases",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-sorteo-millas-planes-verano": {
+      "titulo": "Ganadores Sorteo Millas planes verano",
+      "tipo": "ganadores",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-libro-maria-y-el-secreto-del-ahorro": {
+      "titulo": "Bases Concurso Libro “María y el secreto del ahorro\"",
+      "tipo": "bases",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-rrss-cascos-rojos": {
+      "titulo": "Bases Concurso RRSS \"Cascos Rojos\"",
+      "tipo": "bases",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-roxette-y-jackson-wang": {
+      "titulo": "Ganadores concurso Roxette y Jackson Wang - Cuenta Corriente Digital",
+      "tipo": "ganadores",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/experiencia-santander-rio": {
+      "titulo": "Ganadores SMUSIC - Experiencia Santander Río",
+      "tipo": "ganadores",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-250000-marzo": {
+      "titulo": "Ganadores Concurso 250.000 en marzo",
+      "tipo": "ganadores",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-the-lumineers-y-jonas-brothers-cuenta-corriente-digital": {
+      "titulo": "Bases Concurso The Lumineers y Jonas Brothers - Cuenta Corriente Digital",
+      "tipo": "bases",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-smusic-4": {
+      "titulo": "Bases Concurso SMUSIC 4",
+      "tipo": "bases",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-activacion-nuevos-clientes-pyme": {
+      "titulo": "Bases Concurso Activación nuevos Clientes Pyme",
+      "tipo": "bases",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-roxette": {
+      "titulo": "Ganadores SMUSIC - Roxette",
+      "tipo": "ganadores",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-fifa-2026-2": {
+      "titulo": "Bases concurso FIFA 2026™",
+      "tipo": "bases",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-jackson-wang": {
+      "titulo": "Ganadores SMUSIC - Jackson Wang",
+      "tipo": "ganadores",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-roxette-y-jackson-wang-cuenta-corriente-digital": {
+      "titulo": "Bases concurso Roxette y Jackson Wang - Cuenta Corriente Digital",
+      "tipo": "bases",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/resultados-concurso-romeo-y-julieta-cuenta-corriente-digital": {
+      "titulo": "Resultados concurso Romeo y Julieta - Cuenta Corriente Digital",
+      "tipo": "ganadores",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-los-bunkers": {
+      "titulo": "Ganadores SMUSIC - Los Bunkers",
+      "tipo": "ganadores",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-big-box-tarjeta-de-credito-santander-empresas": {
+      "titulo": "Bases Concurso Big Box Tarjeta de Crédito Santander Empresas",
+      "tipo": "ganadores",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-sorteo-500-000-para-nuevos-planes": {
+      "titulo": "Bases sorteo $500.000 para nuevos planes",
+      "tipo": "bases",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-romeo-y-julieta-cuenta-corriente-digital": {
+      "titulo": "Bases concurso Romeo y Julieta - Cuenta Corriente Digital",
+      "tipo": "bases",
+      "mes": "Abril",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-actualiza-tu-renta-cashback": {
+      "titulo": "Ganadores Concurso Actualiza tu renta - cashback",
+      "tipo": "ganadores",
+      "mes": "Marzo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-rr-ss-santander-2026": {
+      "titulo": "Bases Concurso RR.SS Santander 2026",
+      "tipo": "bases",
+      "mes": "Marzo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-cine-app-campus-digital": {
+      "titulo": "Bases Concurso Cine - App Campus Digital",
+      "tipo": "bases",
+      "mes": "Marzo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-pyme-gift-card": {
+      "titulo": "Ganadores Concurso Pyme - Gift Card",
+      "tipo": "ganadores",
+      "mes": "Marzo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-pyme-macbook": {
+      "titulo": "Ganadores Concurso Pyme - MacBook",
+      "tipo": "ganadores",
+      "mes": "Marzo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/concurso-activacion-pyme": {
+      "titulo": "Ganadores Concurso Activación Pyme",
+      "tipo": "ganadores",
+      "mes": "Marzo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-sorteo-250-000-en-marzo": {
+      "titulo": "Bases Concurso Sorteo $250.000 en marzo",
+      "tipo": "bases",
+      "mes": "Marzo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/resultado-sorteo-millas-viaja-con-tu-1": {
+      "titulo": "Ganadores Sorteo Millas Viaja Con Tu +1",
+      "tipo": "ganadores",
+      "mes": "Marzo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-camiseta-diablas": {
+      "titulo": "Bases Concurso Camiseta Diablas",
+      "tipo": "bases",
+      "mes": "Marzo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-ac-dc-cuenta-corriente-digital": {
+      "titulo": "Ganadores Concurso AC/DC - Cuenta Corriente Digital",
+      "tipo": "ganadores",
+      "mes": "Marzo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-ac-dc": {
+      "titulo": "Bases Concurso AC/DC",
+      "tipo": "bases",
+      "mes": "Marzo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-experiencia-santander": {
+      "titulo": "Ganadores SMUSIC - Experiencia Santander",
+      "tipo": "ganadores",
+      "mes": "Marzo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-actualiza-tu-renta-millas": {
+      "titulo": "Ganadores Concurso Actualiza tu renta - Millas",
+      "tipo": "ganadores",
+      "mes": "Marzo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-acdc": {
+      "titulo": "Ganadores SMUSIC - ACDC",
+      "tipo": "ganadores",
+      "mes": "Marzo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-de-concurso-soap-aramco": {
+      "titulo": "Bases de concurso SOAP-ARAMCO",
+      "tipo": "bases",
+      "mes": "Marzo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-one-app-ac-dc": {
+      "titulo": "Ganadores Concurso One App-AC/DC",
+      "tipo": "ganadores",
+      "mes": "Marzo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-ac-dc-cuenta-corriente-digital": {
+      "titulo": "Bases Concurso AC/DC - Cuenta Corriente Digital",
+      "tipo": "bases",
+      "mes": "Marzo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-smusic-3-marzo": {
+      "titulo": "Bases Concurso SMUSIC 3",
+      "tipo": "bases",
+      "mes": "Marzo",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-promocion-cashback-suscripcion-cuenta-corriente-digital": {
+      "titulo": "Bases Promoción Cashback Suscripción Cuenta Corriente Digital",
+      "tipo": "bases",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-big-time-rush": {
+      "titulo": "Ganadores SMUSIC - Big Time Rush",
+      "tipo": "ganadores",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganador-sorteo-suzuki": {
+      "titulo": "Ganador Sorteo Suzuki",
+      "tipo": "ganadores",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-activa-tu-ahorro-automatico": {
+      "titulo": "Ganadores Activa tu Ahorro Automático",
+      "tipo": "ganadores",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-festival-de-vina": {
+      "titulo": "Ganadores SMUSIC - Festival de Viña",
+      "tipo": "ganadores",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-sorteo-250-000-febrero": {
+      "titulo": "Ganadores Sorteo $250.000 - Febrero",
+      "tipo": "ganadores",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-tarjeta-de-credito-santander-empresas": {
+      "titulo": "Bases Concurso Tarjeta de Crédito Santander Empresas",
+      "tipo": "bases",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-entradas-rufus-du-sol-cuenta-life": {
+      "titulo": "Ganadores Concurso Entradas Rüfüs Du Sol - Cuenta Life",
+      "tipo": "ganadores",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-jason-mraz": {
+      "titulo": "Ganadores SMUSIC - Jason Mraz",
+      "tipo": "ganadores",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/resultado-sorteo-iphone-17-airpods-cuenta-corriente-life": {
+      "titulo": "Resultado sorteo iPhone 17 + AirPods Cuenta Corriente Life",
+      "tipo": "ganadores",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-rufus-du-sol": {
+      "titulo": "Ganadores SMUSIC - Rüfüs Du Sol",
+      "tipo": "ganadores",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/sorteo-millas-viaja-con-tu-1": {
+      "titulo": "Sorteo Millas Viaja Con Tu +1",
+      "tipo": "bases",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/resultado-concurso-vina-life": {
+      "titulo": "Resultado Concurso Viña Life",
+      "tipo": "ganadores",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concursos-conciertos-rrss": {
+      "titulo": "Ganadores Concursos Conciertos RRSS",
+      "tipo": "ganadores",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-sorteo-soap-vina-y-autocompra-vina": {
+      "titulo": "Bases Sorteo SOAP Viña y Autocompra Viña",
+      "tipo": "bases",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-tricota-valdivia": {
+      "titulo": "Bases Concurso Tricota Valdivia",
+      "tipo": "bases",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-siloe": {
+      "titulo": "Ganadores SMUSIC - Siloé",
+      "tipo": "ganadores",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-chayanne-stgo": {
+      "titulo": "Ganadores SMUSIC - Chayanne Stgo",
+      "tipo": "ganadores",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-surfestival-pichilemu": {
+      "titulo": "Ganadores SMUSIC - Surfestival Pichilemu",
+      "tipo": "ganadores",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/resultados-concurso-entradas-chayanne-stgo": {
+      "titulo": "Resultados Concurso Entradas Chayanne Stgo",
+      "tipo": "ganadores",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-entradas-rufus-du-sol": {
+      "titulo": "Bases Concurso Entradas Rüfüs Du Sol",
+      "tipo": "bases",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-doja-cat": {
+      "titulo": "Ganadores SMUSIC - Doja Cat",
+      "tipo": "ganadores",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-hockey": {
+      "titulo": "Bases Concurso Hockey",
+      "tipo": "bases",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/concurso-actualiza-tu-renta": {
+      "titulo": "Concurso Actualiza tu Renta",
+      "tipo": "bases",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-chayanne-concepcion": {
+      "titulo": "Ganadores SMUSIC - Chayanne Concepción",
+      "tipo": "ganadores",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-chayanne-vina": {
+      "titulo": "Ganadores SMUSIC - Chayanne Viña",
+      "tipo": "ganadores",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-entradas-chayanne-stgo": {
+      "titulo": "Bases Concurso Entradas Chayanne Stgo",
+      "tipo": "bases",
+      "mes": "Febrero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/sorteo-phone-17-airpods-cuenta-corriente-life": {
+      "titulo": "Sorteo iPhone 17 + AirPods Cuenta Corriente Life",
+      "tipo": "bases",
+      "mes": "Enero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-soap-te-lleva-a-vina-2026": {
+      "titulo": "Bases Concurso SOAP te lleva a Viña 2026",
+      "tipo": "bases",
+      "mes": "Enero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-autocompara-vina-2026": {
+      "titulo": "Bases Concurso Autocompara Viña 2026",
+      "tipo": "bases",
+      "mes": "Enero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-campana-sorteo-millas-planes": {
+      "titulo": "Ganadores Campaña Sorteo Millas Planes",
+      "tipo": "ganadores",
+      "mes": "Enero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-conciertos-rrss": {
+      "titulo": "Bases Concurso Conciertos RRSS",
+      "tipo": "bases",
+      "mes": "Enero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/resultados-concurso-vina-diciembre": {
+      "titulo": "Resultados Concurso Viña diciembre",
+      "tipo": "ganadores",
+      "mes": "Enero",
+      "anio": 2026,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/anexo-invita-y-gana-2": {
+      "titulo": "Anexo Bases concurso Invita y Gana Cuenta Corriente Digital Abril 2026 Ver anexo",
+      "tipo": "bases",
+      "mes": null,
+      "anio": null,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/anexo-bases-concurso-vina-life": {
+      "titulo": "Anexo - Bases Concurso Viña Life Enero 2026 Ver anexo",
+      "tipo": "bases",
+      "mes": null,
+      "anio": null,
+      "first_seen": "2000-01-01T00:00:00-04:00"
+    }
+  },
+  "last_check": "2026-06-28T01:29:52.478857-04:00",
+  "total": 99
+}

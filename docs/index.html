@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Concursos Santander · Monitor</title>
+<style>
+  :root { --rojo:#ec0000; --bg:#f4f5f7; --txt:#222; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'Segoe UI',Arial,sans-serif; background:var(--bg); color:var(--txt); }
+  header { background:var(--rojo); color:#fff; padding:28px 20px; }
+  header h1 { margin:0; font-size:24px; }
+  header p { margin:6px 0 0; font-size:14px; opacity:.9; }
+  .wrap { max-width:1100px; margin:0 auto; padding:24px 20px 60px; }
+  .stats { display:flex; gap:14px; flex-wrap:wrap; margin:0 0 24px; }
+  .stat { background:#fff; border-radius:10px; padding:14px 20px; box-shadow:0 1px 4px rgba(0,0,0,.08); }
+  .stat b { font-size:26px; color:var(--rojo); display:block; }
+  .stat span { font-size:12px; color:#777; }
+  h2 { font-size:18px; margin:28px 0 14px; border-left:4px solid var(--rojo); padding-left:10px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:16px; }
+  .card { background:#fff; border-radius:12px; overflow:hidden; text-decoration:none; color:inherit;
+           box-shadow:0 1px 4px rgba(0,0,0,.08); transition:transform .12s, box-shadow .12s; display:flex; flex-direction:column; }
+  .card:hover { transform:translateY(-3px); box-shadow:0 6px 18px rgba(0,0,0,.14); }
+  .card img, .card .noimg { width:100%; aspect-ratio:1/1; object-fit:cover; background:#eee; }
+  .card .body { padding:12px 14px 16px; }
+  .card h3 { font-size:14px; margin:6px 0 4px; line-height:1.3; }
+  .fecha { font-size:12px; color:#888; margin:0; }
+  .badges { display:flex; gap:6px; flex-wrap:wrap; }
+  .badge { font-size:10px; font-weight:700; padding:3px 8px; border-radius:20px; text-transform:uppercase; letter-spacing:.3px; }
+  .badge.bases { background:#ffe5e5; color:var(--rojo); }
+  .badge.gan { background:#e8e8e8; color:#666; }
+  .badge.nuevo { background:#16a34a; color:#fff; }
+  footer { text-align:center; font-size:12px; color:#999; padding:30px 20px; }
+  footer a { color:var(--rojo); }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap" style="padding-bottom:0;">
+    <h1>🎯 Monitor de Concursos · Santander Chile</h1>
+    <p>Actualizado: 28-06-2026 01:29 (hora Chile) · Fuente oficial actualizada cada dia</p>
+  </div>
+</header>
+<div class="wrap">
+  <div class="stats">
+    <div class="stat"><b>48</b><span>con bases (participables)</span></div>
+    <div class="stat"><b>51</b><span>resultados/ganadores</span></div>
+    <div class="stat"><b>0</b><span>nuevos (ultimos 7 dias)</span></div>
+  </div>
+
+  <h2>🏆 Concursos con bases — para participar</h2>
+  <div class="grid">
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-sorteo-experiencia-formula-1-select" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/060/633/5c41a220-34be-489e-a142-0a469e516ee9/original/Destacado-F1-Select-800x800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Sorteo Experiencia Formula 1 Select</h3>
+          <p class="fecha">Junio 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/anexo-bases-concurso-invita-y-gana-cuenta-corriente-digital" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/863/2871c174-dba9-4179-9f71-59e766bb9626/original/Invita-y-gana-2-800x800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Anexo Bases concurso Invita y Gana Cuenta Corriente Digital</h3>
+          <p class="fecha">Junio 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-avant-premiere-la-odisea" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/060/527/c3e89958-c833-4553-a67e-8208b285782e/original/La_odisea.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases concurso Avant Premiere La Odisea</h3>
+          <p class="fecha">Junio 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/activa-tu-ahorro-automatico" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/060/508/9bf6e955-a989-4a93-98bc-9feb5d29cf10/original/rosalia.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Activa tu Ahorro Automático</h3>
+          <p class="fecha">Junio 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/sorteo-millas-dia-del-padre-2026" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/060/500/29f473a0-69db-4025-bdd9-af98180e0830/original/Dia-del-padre-F-800x800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Sorteo millas día del padre</h3>
+          <p class="fecha">Junio 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-promocion-cashbak-suscripcion-cuenta-corriente-digital" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/847/4f76ddea-ccff-4dbb-abbf-c497821386b3/original/Cashback_Cta_Digital_800_x_800_px_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Promoción Cashback Suscripción Cuenta Corriente Digital</h3>
+          <p class="fecha">Junio 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-campana-apertura-de-cuenta-con-santander-en-tu-barrio" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/056/612/6cb127b3-e07d-4ca5-9ac7-5af1fd0e32c4/original/Santander-en-tu-barrio-800x800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Campaña Apertura de Cuenta con Santander en tu Barrio</h3>
+          <p class="fecha">Junio 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/sorteo-estadia-hotel-awa" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/060/349/21ef0800-2224-46fa-9855-ab51cdad8ae9/original/Imagen_bases.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Sorteo estadía Hotel AWA</h3>
+          <p class="fecha">Junio 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-fondos-concursables-2026" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/365/3eda8085-5681-4f13-ad0a-50dfecaa22c5/original/Fondos-Concursables-Santander.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Fondos Concursables 2026</h3>
+          <p class="fecha">Mayo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-consumo-rosalia" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/060/205/cacda41c-6431-4658-a19e-ac3e839dff3a/original/credito-de-consumo-800x800-3.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso Consumo - Rosalía</h3>
+          <p class="fecha">Mayo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-sorteo-experiencia-formula-1" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/060/208/3b3a6c9a-201c-469d-a569-794d163b3c8d/original/bases_f1.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Sorteo Experiencia Formula 1</h3>
+          <p class="fecha">Mayo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-sorteo-macbook-pro" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/060/099/f83aa322-d313-4b9f-bf2b-f35baa1fc67f/original/Sorteo_macbook.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Sorteo MacBook Pro</h3>
+          <p class="fecha">Mayo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-rosalia-cuenta-corriente-digital" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/971/5d0ae589-1063-4484-a5b0-ff112a00eb56/original/Rosalia-800x800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso Rosalía - Cuenta Corriente Digital</h3>
+          <p class="fecha">Mayo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-hot-wheels-monster-trucks" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/896/4a7817fb-0901-4e36-bcb5-951c64c9d113/original/800x800_HotWheels.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso Hot Wheels Monster Trucks - Cuenta Corriente Digital</h3>
+          <p class="fecha">Mayo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/sorteo-millas-dia-de-la-madre" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/835/87598ad4-6971-4d3d-89e3-70fbfd722285/original/Destacado-Dia-de-la-madre-800x800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Sorteo millas día de la madre</h3>
+          <p class="fecha">Mayo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-recibe-tu-sueldo-en-santander" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/697/f972a789-3d88-491d-8c4f-7ef2ae77d6f1/original/Ahorro-Automatico-800x800-F.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso Recibe tu sueldo en Santander</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-libro-maria-y-el-secreto-del-ahorro" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/630/d6da3d7a-4814-4ee4-9c35-ea1d1d1c56b1/original/Maria-y-el-secreto-del-ahorro-800x800-2.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso Libro “María y el secreto del ahorro"</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-rrss-cascos-rojos" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/620/466de695-fbb0-4446-8842-5868c749684e/original/Portada_Concurso_20260422_105605_0000.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso RRSS "Cascos Rojos"</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-the-lumineers-y-jonas-brothers-cuenta-corriente-digital" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/549/32895174-79bc-44e7-acfe-052cb1656f94/original/Jonas-Lumineers.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso The Lumineers y Jonas Brothers - Cuenta Corriente Digital</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-smusic-4" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/483/33e7e44e-4da5-40d1-ae11-61e633a6f34a/original/Banner-destacado-smusic-brasil.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso SMUSIC 4</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-activacion-nuevos-clientes-pyme" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/446/77a6ee9c-1b3d-4371-8e8d-3bec73861c69/original/Bases-Concurso-Activacion-Clientes-nuevos-800x800-2.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso Activación nuevos Clientes Pyme</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-fifa-2026-2" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/419/4af60e7e-a558-4b18-9f8d-1198f81702b6/original/fifa_web_1_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases concurso FIFA 2026™</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-roxette-y-jackson-wang-cuenta-corriente-digital" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/411/a7ad1159-535f-4c72-9ab5-2715c0474d9a/original/Wang-y-roxette-800x800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases concurso Roxette y Jackson Wang - Cuenta Corriente Digital</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-sorteo-500-000-para-nuevos-planes" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/344/b35c12ee-3b25-4432-86cb-a26ec95bfad4/original/Contratacio_n-de-nuevos-planes-800x800_2.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases sorteo $500.000 para nuevos planes</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-romeo-y-julieta-cuenta-corriente-digital" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/295/f67b9119-9f8d-4839-8819-e16fd6cb22dd/original/Disen_o_sin_ti_tulo_52_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases concurso Romeo y Julieta - Cuenta Corriente Digital</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-rr-ss-santander-2026" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/141/b85017be-a4dc-4beb-921c-64519e6e6bfc/original/Smusic-H-N.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso RR.SS Santander 2026</h3>
+          <p class="fecha">Marzo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-cine-app-campus-digital" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/037/93b1e117-a72e-4d95-9f43-05e6ef6cccbc/original/CINE_800x800.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso Cine - App Campus Digital</h3>
+          <p class="fecha">Marzo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-sorteo-250-000-en-marzo" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/998/4ad377bd-fa3b-4420-b877-d7bd8ef7c103/original/web_cashback_1_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso Sorteo $250.000 en marzo</h3>
+          <p class="fecha">Marzo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-camiseta-diablas" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/973/eefb8f50-e1f5-4bba-82c9-a28a08ac7931/original/Bases-Concurso-Camiseta-Diablas.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso Camiseta Diablas</h3>
+          <p class="fecha">Marzo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-ac-dc" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/929/141920ab-3d87-4714-910f-12edcab20cdc/original/acdc_cuenta_digital.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso AC/DC</h3>
+          <p class="fecha">Marzo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-de-concurso-soap-aramco" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/862/81a7d93c-3660-4350-89b7-2348a833431b/original/destacado-seguros-soap-800x800_1_.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases de concurso SOAP-ARAMCO</h3>
+          <p class="fecha">Marzo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-ac-dc-cuenta-corriente-digital" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/769/e31109b4-45e1-4577-8744-6e9565e955ce/original/acdc_cuenta_digital.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso AC/DC - Cuenta Corriente Digital</h3>
+          <p class="fecha">Marzo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-smusic-3-marzo" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/758/68d88ae6-8516-48bc-ae6b-0bfffc1a20bb/original/SMUSIC_800x800_1_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso SMUSIC 3</h3>
+          <p class="fecha">Marzo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-promocion-cashback-suscripcion-cuenta-corriente-digital" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/492/d82ac7ab-8a78-4bd2-81d6-5f355cbb00f5/original/Cashback_Cta_Digital_800_x_800_px_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Promoción Cashback Suscripción Cuenta Corriente Digital</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-tarjeta-de-credito-santander-empresas" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/664/2b2f7ac2-2326-4173-8d0b-3c66e519dd99/original/Landing-Concurso-800x800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso Tarjeta de Crédito Santander Empresas</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/sorteo-millas-viaja-con-tu-1" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/528/4cef0ea4-3594-4a7a-8764-d62951e4f861/original/GettyImages-2251991864.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Sorteo Millas Viaja Con Tu +1</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-sorteo-soap-vina-y-autocompra-vina" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/509/f5e13722-959a-417e-a32d-c38f8997a037/original/destacado-vina-2026.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Sorteo SOAP Viña y Autocompra Viña</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-tricota-valdivia" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/507/847a3f59-fd22-45fb-86a9-00ccecb2c3c8/original/Martin_800x800_B_.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso Tricota Valdivia</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-entradas-rufus-du-sol" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/401/8e87dad9-24f6-4923-ba83-8fe68d780d72/original/SMUSIC_800x800_1_2.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso Entradas Rüfüs Du Sol</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-hockey" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/399/1fd87eb2-3f7c-472f-b1a2-ec1301d94475/original/Mundial-Hockey_800x800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso Hockey</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/concurso-actualiza-tu-renta" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/386/f585566a-0dca-4c66-9f38-3fc4a58ee58b/original/actualiza_tu_renta.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Concurso Actualiza tu Renta</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-entradas-chayanne-stgo" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/335/80426397-8631-4fd9-ba26-fb0440573b86/original/Chayanne_800_x_800_px_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso Entradas Chayanne Stgo</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/sorteo-phone-17-airpods-cuenta-corriente-life" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/057/922/e9821f81-0121-4ac8-a83c-6ca2153cc507/original/img-iphone-800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Sorteo iPhone 17 + AirPods Cuenta Corriente Life</h3>
+          <p class="fecha">Enero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-soap-te-lleva-a-vina-2026" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/057/905/44d53874-6481-4f5d-8faa-34297a96784e/original/Destacado-Home-800x800_1_.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso SOAP te lleva a Viña 2026</h3>
+          <p class="fecha">Enero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-autocompara-vina-2026" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/057/932/c2aaaed9-8b0d-4902-9cde-be1dc2767cd8/original/destacado-vina-2026.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso Autocompara Viña 2026</h3>
+          <p class="fecha">Enero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-conciertos-rrss" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/361/c5477d00-0d14-42ed-86d4-629f7616393a/original/Portada_concurso.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Bases Concurso Conciertos RRSS</h3>
+          <p class="fecha">Enero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/anexo-invita-y-gana-2" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/240/b7f9cffc-20c4-4612-ac47-3984fa7e76aa/original/Invita-y-gana-2-800x800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Anexo Bases concurso Invita y Gana Cuenta Corriente Digital Abril 2026 Ver anexo</h3>
+          <p class="fecha"></p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/anexo-bases-concurso-vina-life" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/333/6aeee87e-7b2b-4468-acd6-1e1cbca9c534/original/destacado-vina-2026.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge bases">Participar</span></div>
+          <h3>Anexo - Bases Concurso Viña Life Enero 2026 Ver anexo</h3>
+          <p class="fecha"></p>
+        </div>
+      </a></div>
+
+  <h2>📋 Resultados y ganadores</h2>
+  <div class="grid">
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-millas-dia-de-la-madre" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/060/339/5bf2a30a-ba3a-4e46-af62-72e4f6abf864/original/Destacado-Dia-de-la-madre-800x800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores Concurso Millas Día de la Madre</h3>
+          <p class="fecha">Junio 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/sorteo-millas-3-cuotas-sin-interes-cyber" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/060/240/b1616c15-69bc-4644-a272-86081e47f1d7/original/cyber.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Sorteo Millas 3 Cuotas Sin Interés Cyber</h3>
+          <p class="fecha">Junio 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-la-cenicienta" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/060/168/b66f74d4-2ae8-4bfa-aa47-171550e75ace/original/SMUSIC_800x800.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - La Cenicienta</h3>
+          <p class="fecha">Mayo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/resultados-concurso-maria-y-el-secreto-del-ahorro" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/901/5474f02e-3787-42f9-932d-3ff09c571320/original/Maria-y-el-secreto-del-ahorro-800x800-2.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Resultados concurso “María y el secreto del ahorro” - Redes Sociales</h3>
+          <p class="fecha">Mayo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-jonas-brothers" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/849/bac06bb0-58e6-422a-b9b2-b54ef8a64886/original/SMUSIC_800x800.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - Jonas Brothers</h3>
+          <p class="fecha">Mayo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/resultados-concurso-jonas-brothers-cuenta-corriente-digital" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/873/b50e0105-b1b0-4862-8432-2b9efd51ea8b/original/Jonas-Lumineers.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Resultados Concurso Jonas Brothers - Cuenta Corriente Digital</h3>
+          <p class="fecha">Mayo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-fifa" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/882/cce2feb9-815b-45a1-aed3-ec5f112213aa/original/fifa.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores FIFA</h3>
+          <p class="fecha">Mayo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-rrs-cascos-rojos" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/877/02b17daf-804b-4909-a5fa-5bf7582872a9/original/Portada_Concurso_20260422_105605_0000.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores Concurso RRS "Cascos Rojos"</h3>
+          <p class="fecha">Mayo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-the-lumineers-cuenta-corriente-digital" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/800/f5e4a1e0-e735-4bc8-af42-7467f624ec5f/original/Jonas-Lumineers.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Resultados Concurso The Lumineers - Cuenta Corriente Digital</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-the-lumineers" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/745/681f01b9-58af-47ec-a9f2-c923253d2805/original/SMUSIC_800x800.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - The Lumineers</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-millas-3csi" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/741/a85178e7-1c5d-4e85-8fb5-7564d03361ce/original/3csi_web_3_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores concurso millas 3CSI</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-10-csi-educacion-sorteo-millas" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/739/3a9c5af7-3225-4665-8916-eff4f1fce41c/original/educacion-csi_1_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores 10 CSI educación - Sorteo millas</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-sorteo-millas-planes-verano" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/660/29eae1ae-3582-48d0-9f0c-45e571e1e874/original/Vacaciones-800x800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores Sorteo Millas planes verano</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-roxette-y-jackson-wang" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/592/77cc39c3-956f-4ee8-8dbb-641ca39566a2/original/Wang-y-roxette-800x800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores concurso Roxette y Jackson Wang - Cuenta Corriente Digital</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/experiencia-santander-rio" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/588/3a3c6cdd-fc13-466c-abba-be8b887c73e7/original/Banner-destacado-smusic-brasil.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - Experiencia Santander Río</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-250000-marzo" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/584/de8a5703-229c-4f64-ba46-1cca3bd03c5e/original/web_cashback_1_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores Concurso 250.000 en marzo</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-roxette" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/423/19c8cc65-1004-4ba3-a3cc-60402948ceaf/original/SMUSIC_800x800_1_1_1_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - Roxette</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-jackson-wang" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/416/3c9fbcba-004d-424e-b118-4eb98ac3e4a7/original/SMUSIC_800x800_1_1_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - Jackson Wang</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/resultados-concurso-romeo-y-julieta-cuenta-corriente-digital" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/406/0c74adaf-6e55-439b-90e7-a6669416c6ee/original/Disen_o_sin_ti_tulo_52_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Resultados concurso Romeo y Julieta - Cuenta Corriente Digital</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-los-bunkers" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/392/ea8dd058-d34a-4f7e-b449-b40261e0d6aa/original/SMUSIC_800x800_1_1_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - Los Bunkers</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-big-box-tarjeta-de-credito-santander-empresas" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/391/5feb4044-33f6-4684-94ec-a70e04ac4d35/original/Big-Box-TC-800x800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Bases Concurso Big Box Tarjeta de Crédito Santander Empresas</h3>
+          <p class="fecha">Abril 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-actualiza-tu-renta-cashback" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/073/21389362-b2db-47d6-aaf1-8e3ed218ef91/original/actualiza_tu_renta_1_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores Concurso Actualiza tu renta - cashback</h3>
+          <p class="fecha">Marzo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-pyme-gift-card" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/036/7bae7e70-de80-4280-8fd0-684c4de1b4b3/original/Img-1-800x800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores Concurso Pyme - Gift Card</h3>
+          <p class="fecha">Marzo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-pyme-macbook" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/035/e2bc7791-16a5-4d1d-be9a-03b37ba90b41/original/Img-2-800x800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores Concurso Pyme - MacBook</h3>
+          <p class="fecha">Marzo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/concurso-activacion-pyme" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/059/033/ba37d72a-c382-457a-91ab-b43f5e95d54f/original/800x800-Bases-Concurso-Activacion-Clientes-Pyme_1.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores Concurso Activación Pyme</h3>
+          <p class="fecha">Marzo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/resultado-sorteo-millas-viaja-con-tu-1" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/975/73a069ba-1f87-4c1a-9eb8-11cf7a6ec860/original/Sorteo-Millas-Viaja-Con-Tu-1_.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores Sorteo Millas Viaja Con Tu +1</h3>
+          <p class="fecha">Marzo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-ac-dc-cuenta-corriente-digital" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/944/8620fb34-aa50-4e5a-a0a2-16fdb7cfb725/original/acdc_cuenta_digital.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores Concurso AC/DC - Cuenta Corriente Digital</h3>
+          <p class="fecha">Marzo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-experiencia-santander" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/910/8665912e-73e8-4ac1-b6f2-a048ac3f4fc0/original/SMUSIC_800x800_1_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - Experiencia Santander</h3>
+          <p class="fecha">Marzo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-actualiza-tu-renta-millas" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/913/00b12be0-5978-470f-b998-5bfd359e49e5/original/actualiza_tu_renta.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores Concurso Actualiza tu renta - Millas</h3>
+          <p class="fecha">Marzo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-acdc" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/854/dbc4abd8-2295-461d-9c46-a69edac29c38/original/SMUSIC_800x800_1_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - ACDC</h3>
+          <p class="fecha">Marzo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-one-app-ac-dc" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/808/0bc08a53-09dc-4c95-8f00-fdf54fb0e658/original/Piloto-4_Final.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores Concurso One App-AC/DC</h3>
+          <p class="fecha">Marzo 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-big-time-rush" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/755/318f4256-2b96-48eb-ad44-c366742c8bbb/original/SMUSIC_800x800_1_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - Big Time Rush</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganador-sorteo-suzuki" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/722/000a8700-16b4-4369-b2d8-6bd25232e98b/original/swift_1_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganador Sorteo Suzuki</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-activa-tu-ahorro-automatico" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/651/3ad9ddd2-d8e5-43bb-b3ed-4a53685e91ab/original/destacado-vina-2026_1_.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores Activa tu Ahorro Automático</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-festival-de-vina" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/704/636c2315-d846-4cbc-85d1-d21e5f546509/original/SMUSIC_800x800_1_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - Festival de Viña</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-sorteo-250-000-febrero" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/698/a706fb2d-bb53-47b5-84c6-59e8b7abda68/original/cashback_web_1_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores Sorteo $250.000 - Febrero</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-entradas-rufus-du-sol-cuenta-life" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/653/eb45af32-5bf8-4ebb-a231-efba082b5917/original/SMUSIC_800x800_1_2.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores Concurso Entradas Rüfüs Du Sol - Cuenta Life</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-jason-mraz" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/584/eb9f480c-3c83-4a68-9ad0-ca3571b47322/original/SMUSIC_800x800_1_5.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - Jason Mraz</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/resultado-sorteo-iphone-17-airpods-cuenta-corriente-life" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/581/aa6af059-ce3a-4d43-a201-48fa259cdb9e/original/img-iphone-800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Resultado sorteo iPhone 17 + AirPods Cuenta Corriente Life</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-rufus-du-sol" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/562/61928a9b-2b04-449b-ac6b-bec6c1b4bc2d/original/SMUSIC_800x800_1_2.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - Rüfüs Du Sol</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/resultado-concurso-vina-life" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/531/cd97b9b4-85fd-4ea7-ab1e-d6f9e822fe4b/original/destacado-vina-2026.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Resultado Concurso Viña Life</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concursos-conciertos-rrss" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/511/9fb9b0be-9b75-4b5b-9520-d3c7abeb7c77/original/SMUSIC_800x800_1_2.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores Concursos Conciertos RRSS</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-siloe" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/464/58bba374-b618-4bc2-8877-cd9f1aa1b88b/original/SMUSIC_800x800_1_5.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - Siloé</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-chayanne-stgo" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/461/3f7877a3-4eb7-420f-a252-5e4238fa58ea/original/SMUSIC_800x800_1_3.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - Chayanne Stgo</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-surfestival-pichilemu" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/451/e4e2da6c-d857-486e-9b14-ff40a9c5807d/original/SMUSIC_800x800_1_3.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - Surfestival Pichilemu</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/resultados-concurso-entradas-chayanne-stgo" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/440/09629c2a-1439-424a-9033-b5cb49fc360a/original/Chayanne_800_x_800_px_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Resultados Concurso Entradas Chayanne Stgo</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-doja-cat" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/413/0ce49b34-f281-4f4f-a391-cc886b63ea05/original/SMUSIC_800x800_1.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - Doja Cat</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-chayanne-concepcion" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/383/a372e813-8e6e-48bb-b59f-812c11aeffe5/original/SMUSIC_800x800_1_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - Chayanne Concepción</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-chayanne-vina" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/378/8a620d93-7ce0-4df0-a229-69eff2ada172/original/SMUSIC_800x800_1_.png" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores SMUSIC - Chayanne Viña</h3>
+          <p class="fecha">Febrero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-campana-sorteo-millas-planes" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/358/6d8ab5bc-c8cf-4200-8c48-115a621cc24d/original/Latam-Pass-Limited-800x800.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Ganadores Campaña Sorteo Millas Planes</h3>
+          <p class="fecha">Enero 2026</p>
+        </div>
+      </a>
+      <a class="card" href="https://banco.santander.cl/informacion/resultados-de-concursos/archivos/resultados-concurso-vina-diciembre" target="_blank" rel="noopener">
+        <img src="https://banco.santander.cl/uploads/000/058/295/708066d1-f516-4987-9818-c970c6308060/original/destacado-vina-2026.jpg" alt="" loading="lazy">
+        <div class="body">
+          <div class="badges"><span class="badge gan">Resultados</span></div>
+          <h3>Resultados Concurso Viña diciembre</h3>
+          <p class="fecha">Enero 2026</p>
+        </div>
+      </a></div>
+</div>
+<footer>
+  Monitor automatico no oficial · Datos desde
+  <a href="https://banco.santander.cl/informacion/resultados-de-concursos" target="_blank">banco.santander.cl</a><br>
+  Verifica siempre las bases oficiales (requisitos y fechas de cierre) antes de participar.
+</footer>
+</body>
+</html>
