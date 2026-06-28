@@ -27,6 +27,7 @@ from email.message import EmailMessage
 from pathlib import Path
 
 from scraper import scrape
+import bases_info
 
 ROOT = Path(__file__).resolve().parent
 STATE_FILE = ROOT / "data" / "concursos.json"
@@ -75,12 +76,24 @@ def enviar_mail(nuevos: list[dict]) -> bool:
     for c in nuevos:
         badge = "🏆 Bases / Participar" if c["tipo"] == "bases" else "📋 Resultados"
         fecha = f"{c.get('mes') or ''} {c.get('anio') or ''}".strip()
+        vig = c.get("vigencia")
+        req = c.get("requisitos")
+        extra = ""
+        if vig:
+            extra += (f'<div style="margin-top:6px;font-size:13px;">'
+                      f'<strong>📅 Vigencia:</strong> {vig}</div>')
+        if req:
+            extra += (f'<div style="margin-top:4px;font-size:13px;color:#444;">'
+                      f'<strong>👤 Quiénes participan:</strong> {req}</div>')
         filas += f"""
         <tr>
-          <td style="padding:10px;border-bottom:1px solid #eee;vertical-align:top;">
-            <strong>{c['titulo']}</strong><br>
-            <span style="color:#888;font-size:12px;">{fecha} · {badge}</span><br>
-            <a href="{c['url']}" style="color:#ec0000;">Ver bases / participar →</a>
+          <td style="padding:12px 10px;border-bottom:1px solid #eee;vertical-align:top;">
+            <strong style="font-size:15px;">{c['titulo']}</strong><br>
+            <span style="color:#888;font-size:12px;">{fecha} · {badge}</span>
+            {extra}
+            <div style="margin-top:6px;">
+              <a href="{c['url']}" style="color:#ec0000;font-weight:bold;">Ver bases completas / participar →</a>
+            </div>
           </td>
         </tr>"""
 
@@ -98,9 +111,15 @@ def enviar_mail(nuevos: list[dict]) -> bool:
       </p>
     </div>"""
 
-    texto = "Nuevos concursos Santander:\n\n" + "\n".join(
-        f"- {c['titulo']} ({c.get('mes')} {c.get('anio')}) -> {c['url']}" for c in nuevos
-    )
+    def _txt(c: dict) -> str:
+        s = f"- {c['titulo']} ({c.get('mes')} {c.get('anio')})"
+        if c.get("vigencia"):
+            s += f"\n  Vigencia: {c['vigencia']}"
+        if c.get("requisitos"):
+            s += f"\n  Quienes participan: {c['requisitos']}"
+        s += f"\n  Bases: {c['url']}"
+        return s
+    texto = "Nuevos concursos Santander:\n\n" + "\n\n".join(_txt(c) for c in nuevos)
 
     msg = EmailMessage()
     msg["Subject"] = asunto
@@ -120,7 +139,7 @@ def enviar_mail(nuevos: list[dict]) -> bool:
 # --------------------------------------------------------------------------- #
 #  Dashboard                                                                   #
 # --------------------------------------------------------------------------- #
-def card_html(c: dict, nuevo: bool) -> str:
+def card_html(c: dict, nuevo: bool, vigencia: str | None = None) -> str:
     tipo = c["tipo"]
     badge = ('<span class="badge bases">Participar</span>' if tipo == "bases"
              else '<span class="badge gan">Resultados</span>')
@@ -131,6 +150,8 @@ def card_html(c: dict, nuevo: bool) -> str:
     # un referrer de otro dominio (github.io). Sin referrer, sirve la imagen.
     img_html = (f'<img src="{img}" alt="" loading="lazy" referrerpolicy="no-referrer">'
                 if img else '<div class="noimg"></div>')
+    vig_html = (f'<p class="vig" title="{vigencia}">📅 {vigencia[:90]}</p>'
+                if vigencia else "")
     return f"""
       <a class="card" href="{c['url']}" target="_blank" rel="noopener">
         {img_html}
@@ -138,6 +159,7 @@ def card_html(c: dict, nuevo: bool) -> str:
           <div class="badges">{badge}{nuevo_badge}</div>
           <h3>{c['titulo']}</h3>
           <p class="fecha">{fecha}</p>
+          {vig_html}
         </div>
       </a>"""
 
@@ -153,7 +175,10 @@ def generar_dashboard(concursos: list[dict], estado: dict) -> None:
     bases = [c for c in concursos if c["tipo"] == "bases"]
     ganadores = [c for c in concursos if c["tipo"] == "ganadores"]
 
-    cards_bases = "".join(card_html(c, es_nuevo(c)) for c in bases)
+    def vig_de(c: dict) -> str | None:
+        return estado["concursos"].get(c["url"], {}).get("vigencia")
+
+    cards_bases = "".join(card_html(c, es_nuevo(c), vig_de(c)) for c in bases)
     cards_gan = "".join(card_html(c, es_nuevo(c)) for c in ganadores)
     n_nuevos = sum(1 for c in concursos if es_nuevo(c))
 
@@ -184,6 +209,8 @@ def generar_dashboard(concursos: list[dict], estado: dict) -> None:
   .card .body {{ padding:12px 14px 16px; }}
   .card h3 {{ font-size:14px; margin:6px 0 4px; line-height:1.3; }}
   .fecha {{ font-size:12px; color:#888; margin:0; }}
+  .vig {{ font-size:11px; color:#16a34a; margin:6px 0 0; line-height:1.3;
+          display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }}
   .badges {{ display:flex; gap:6px; flex-wrap:wrap; }}
   .badge {{ font-size:10px; font-weight:700; padding:3px 8px; border-radius:20px; text-transform:uppercase; letter-spacing:.3px; }}
   .badge.bases {{ background:#ffe5e5; color:var(--rojo); }}
@@ -251,6 +278,29 @@ def main() -> int:
                 "mes": c.get("mes"), "anio": c.get("anio"),
                 "first_seen": first_seen_val,
             }
+
+    # Enriquecer los concursos NUEVOS con bases (vigencia + requisitos desde el
+    # PDF). Solo si no es la primera corrida (en baseline no mailamos) y solo
+    # los de tipo "bases" (los de ganadores no tienen requisitos que avisar).
+    if nuevos and not first_run:
+        a_enriquecer = [c for c in nuevos if c["tipo"] == "bases"]
+        if a_enriquecer:
+            print(f"[bases] enriqueciendo {len(a_enriquecer)} concurso(s) con sus PDFs...")
+            try:
+                info = bases_info.enriquecer([c["url"] for c in a_enriquecer])
+            except Exception as e:
+                print(f"[bases] error al enriquecer: {e}", file=sys.stderr)
+                info = {}
+            for c in a_enriquecer:
+                datos = info.get(c["url"], {})
+                c["vigencia"] = datos.get("vigencia")
+                c["requisitos"] = datos.get("requisitos")
+                c["pdf_url"] = datos.get("pdf_url")
+                # persistir en el estado para el dashboard
+                previos[c["url"]].update({
+                    "vigencia": c["vigencia"],
+                    "requisitos": c["requisitos"],
+                })
 
     estado["concursos"] = previos
     estado["first_run"] = False
