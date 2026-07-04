@@ -718,8 +718,17 @@
       "first_seen": "2026-06-30T11:24:55.602561-04:00",
       "vigencia": "Para estos efectos, cada compra válida realizada por el Cliente con su Tarjeta de Débito durante el Periodo de Vigencia del Concurso otorgará una opción de participación en el sorteo El periodo de vigencia del Concurso se extenderá desde las 00:00 horas del día 30 de junio de 2026 hasta las 23:59 ho",
       "requisitos": "A quiénes se dirige el Concurso Podrán participar en el Concurso regulado por las presentes Bases únicamente las personas naturales que sean clientes de Banco Santander Chile, y que cumplan copulativamente con todos y cada uno de los siguientes requisitos: a) Calidad de cliente. Dirigido a nuevos clientes persona natural, titulares de la Cuenta Corriente Digital de Banco Santander Chile a partir d"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/anexo-bases-sorteo-experiencia-formula-1": {
+      "titulo": "Anexo Bases Sorteo Experiencia Formula 1",
+      "tipo": "bases",
+      "mes": "Julio",
+      "anio": 2026,
+      "first_seen": "2026-07-04T10:26:53.467759-04:00",
+      "vigencia": null,
+      "requisitos": null
     }
   },
-  "last_check": "2026-07-03T11:08:20.092164-04:00",
+  "last_check": "2026-07-04T10:26:53.467759-04:00",
   "total": 99
 }
