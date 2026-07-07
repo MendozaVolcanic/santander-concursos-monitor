@@ -736,8 +736,15 @@
       "first_seen": "2026-07-06T12:18:03.320124-04:00",
       "vigencia": "El periodo de vigencia del Concurso se extenderá desde las 00:00 horas del día 26 de junio de 2026 hasta las 23:59 horas del día 26 de julio de 2026.",
       "requisitos": "A quienes se dirige el Concurso Podrán participar en el Concurso regulado por las presentes Bases únicamente las personas naturales que sean clientes de Banco Santander Chile, y que cumplan copulativamente con todos y cada uno de los siguientes requisitos: a) Calidad de cliente. Ser cliente de Banco Santander Chile. Adicionalmente, el cliente deberá cumplir con las siguientes condiciones: a. Tener"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-sorteo-millas-dia-del-padre": {
+      "titulo": "Ganadores Sorteo Millas Día del Padre",
+      "tipo": "ganadores",
+      "mes": "Julio",
+      "anio": 2026,
+      "first_seen": "2026-07-07T11:42:38.234796-04:00"
     }
   },
-  "last_check": "2026-07-06T12:18:03.320124-04:00",
+  "last_check": "2026-07-07T11:42:38.234796-04:00",
   "total": 99
 }
