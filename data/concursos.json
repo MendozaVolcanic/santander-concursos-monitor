@@ -743,8 +743,22 @@
       "mes": "Julio",
       "anio": 2026,
       "first_seen": "2026-07-07T11:42:38.234796-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-millas-3-cuotas-sin-interes-cyber-julio": {
+      "titulo": "Ganadores Millas 3 Cuotas Sin Interés Cyber",
+      "tipo": "ganadores",
+      "mes": "Julio",
+      "anio": 2026,
+      "first_seen": "2026-07-09T11:55:10.510361-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-la-cenicienta-2": {
+      "titulo": "Ganadores SMUSIC - La Cenicienta",
+      "tipo": "ganadores",
+      "mes": "Mayo",
+      "anio": 2026,
+      "first_seen": "2026-07-09T11:55:10.510361-04:00"
     }
   },
-  "last_check": "2026-07-08T11:18:02.619620-04:00",
+  "last_check": "2026-07-09T11:55:10.510361-04:00",
   "total": 99
 }
