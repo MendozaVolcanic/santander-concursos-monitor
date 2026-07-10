@@ -757,8 +757,15 @@
       "mes": "Mayo",
       "anio": 2026,
       "first_seen": "2026-07-09T11:55:10.510361-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-sorteo-estadia-hotel-awa": {
+      "titulo": "Ganadores Sorteo estadía Hotel AWA",
+      "tipo": "ganadores",
+      "mes": "Julio",
+      "anio": 2026,
+      "first_seen": "2026-07-10T11:30:17.937500-04:00"
     }
   },
-  "last_check": "2026-07-09T11:55:10.510361-04:00",
+  "last_check": "2026-07-10T11:30:17.937500-04:00",
   "total": 99
 }
