@@ -771,8 +771,15 @@
       "mes": "Julio",
       "anio": 2026,
       "first_seen": "2026-07-11T10:20:44.707670-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-soap-aramco": {
+      "titulo": "Ganadores Concurso SOAP-ARAMCO",
+      "tipo": "ganadores",
+      "mes": "Julio",
+      "anio": 2026,
+      "first_seen": "2026-07-13T11:40:53.307452-04:00"
     }
   },
-  "last_check": "2026-07-12T10:25:19.305240-04:00",
+  "last_check": "2026-07-13T11:40:53.307452-04:00",
   "total": 99
 }
