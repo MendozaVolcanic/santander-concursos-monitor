@@ -778,8 +778,15 @@
       "mes": "Julio",
       "anio": 2026,
       "first_seen": "2026-07-13T11:40:53.307452-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-sorteo-macbookpro": {
+      "titulo": "Ganadores Sorteo MacBook Pro",
+      "tipo": "ganadores",
+      "mes": "Julio",
+      "anio": 2026,
+      "first_seen": "2026-07-14T10:46:26.431303-04:00"
     }
   },
-  "last_check": "2026-07-13T11:40:53.307452-04:00",
+  "last_check": "2026-07-14T10:46:26.431303-04:00",
   "total": 99
 }
