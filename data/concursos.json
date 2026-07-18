@@ -801,8 +801,15 @@
       "mes": "Julio",
       "anio": 2026,
       "first_seen": "2026-07-15T10:45:55.495730-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/resultado-concurso-hot-wheels-monster-trucks-cuenta-corriente-digital": {
+      "titulo": "Resultado Concurso Hot Wheels Monster Trucks - Cuenta Corriente Digital",
+      "tipo": "ganadores",
+      "mes": "Julio",
+      "anio": 2026,
+      "first_seen": "2026-07-18T10:19:08.565650-04:00"
     }
   },
-  "last_check": "2026-07-17T10:40:32.784342-04:00",
+  "last_check": "2026-07-18T10:19:08.565650-04:00",
   "total": 99
 }
