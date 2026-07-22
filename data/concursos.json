@@ -808,8 +808,29 @@
       "mes": "Julio",
       "anio": 2026,
       "first_seen": "2026-07-18T10:19:08.565650-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-avant-premiere-la-odisea": {
+      "titulo": "Ganadores Avant Premiere La Odisea",
+      "tipo": "ganadores",
+      "mes": "Julio",
+      "anio": 2026,
+      "first_seen": "2026-07-22T11:02:01.096311-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/resultado-concurso-rosalia-cuenta-corriente-digital": {
+      "titulo": "Resultado Concurso Rosalía - Cuenta Corriente Digital",
+      "tipo": "ganadores",
+      "mes": "Julio",
+      "anio": 2026,
+      "first_seen": "2026-07-22T11:02:01.096311-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/resultados-concurso-activa-tu-ahorro-automatico-2": {
+      "titulo": "Resultado Concurso Activa tu Ahorro Automático",
+      "tipo": "ganadores",
+      "mes": "Julio",
+      "anio": 2026,
+      "first_seen": "2026-07-22T11:02:01.096311-04:00"
     }
   },
-  "last_check": "2026-07-21T11:01:33.086623-04:00",
+  "last_check": "2026-07-22T11:02:01.096311-04:00",
   "total": 99
 }
