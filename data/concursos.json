@@ -829,8 +829,24 @@
       "mes": "Julio",
       "anio": 2026,
       "first_seen": "2026-07-22T11:02:01.096311-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-karting-day-con-anais-orellana": {
+      "titulo": "Bases Karting Day con Anaís Orellana",
+      "tipo": "bases",
+      "mes": "Julio",
+      "anio": 2026,
+      "first_seen": "2026-07-23T11:06:44.564780-04:00",
+      "vigencia": "Se considerará solo un comentario por cada cuenta de Instagram, por lo que cada par&cipante tendrá una única oportunidad de par&cipar en el sorteo, aunque realice más de un comentario.El periodo de vigencia del Concurso será desde las 00:00 horas del día 27 de julio de 2026 hasta las 23:59 horas del",
+      "requisitos": "A quiénes se dirige el Concurso Podrán concursar en el Concurso las personas naturales que cumplan con los siguientes requisitos copula&vos: 1. Ser mayor de 18 años. 2. Haber cumplido con la cláusula segunda de las Bases."
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-la-rosalia": {
+      "titulo": "Ganadores SMUSIC - La Rosalía",
+      "tipo": "ganadores",
+      "mes": "Julio",
+      "anio": 2026,
+      "first_seen": "2026-07-23T11:06:44.564780-04:00"
     }
   },
-  "last_check": "2026-07-22T11:02:01.096311-04:00",
+  "last_check": "2026-07-23T11:06:44.564780-04:00",
   "total": 99
 }
