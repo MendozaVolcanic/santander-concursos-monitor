@@ -845,8 +845,17 @@
       "mes": "Julio",
       "anio": 2026,
       "first_seen": "2026-07-23T11:06:44.564780-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-sesiones-s-ana-tijoux": {
+      "titulo": "Bases Concurso Sesiones S - Ana Tijoux",
+      "tipo": "bases",
+      "mes": "Julio",
+      "anio": 2026,
+      "first_seen": "2026-07-24T10:52:34.647005-04:00",
+      "vigencia": "SEGUNDO: Mecánica y vigencia del Concurso El Concurso se realizará a través de la cuenta oficial de Instagram del Banco (@santanderchile) y tendrá por objeto sortear 10 premios, cada uno consistente en una invitación doble para asistir a Sesiones S, evento que se realizará el 6 de agosto 2026 en uno",
+      "requisitos": "A quiénes se dirige el Concurso Podrán participar en el Concurso las personas naturales que cumplan con los siguientes requisitos copulativos: 1. Residir en Chile. 2. Tener una cuenta válida y vigente en Instagram. 3. Haber cumplido con la cláusula segunda de las bases."
     }
   },
-  "last_check": "2026-07-23T11:06:44.564780-04:00",
+  "last_check": "2026-07-24T10:52:34.647005-04:00",
   "total": 99
 }
