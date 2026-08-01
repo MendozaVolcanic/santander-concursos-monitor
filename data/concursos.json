@@ -861,8 +861,26 @@
       "mes": "Julio",
       "anio": 2026,
       "first_seen": "2026-07-31T11:16:44.422752-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-campana-millas-latam-pass-por-cruce-desgravamen-y-cesantia": {
+      "titulo": "Bases campaña millas latam pass por cruce desgravamen y cesantía",
+      "tipo": "bases",
+      "mes": "Agosto",
+      "anio": 2026,
+      "first_seen": "2026-08-01T10:24:57.489366-04:00",
+      "vigencia": "BASES CAMPAÑA MILLAS LATAM PASS POR CRUCE DESGRAVAMEN Y CESANTÍA Desde el 3 al 31 de agosto 2026 Contratando la protección completa con seguros de Desgravamen y Cesantía al contratar su crédito de consumo en cuotas, los clientes podrán acumular Millas LATAM Pass durante la vigencia de la campaña.",
+      "requisitos": null
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-promocion-cashback-suscripcion-cuenta-corriente-digital-2": {
+      "titulo": "Bases Promoción Cashback Suscripción Cuenta Corriente Digital",
+      "tipo": "bases",
+      "mes": "Agosto",
+      "anio": 2026,
+      "first_seen": "2026-08-01T10:24:57.489366-04:00",
+      "vigencia": "TERCERO: Vigencia El periodo de vigencia de la promoción se extiende desde las 00:00 horas del día 01 de agosto de 2026 hasta las 23:59 horas del día 31 de agosto de 2026.",
+      "requisitos": "A quiénes se dirige la Promoción Podrán participar en la Promoción regulada por las presentes Bases únicamente las personas naturales que sean clientes de Banco Santander Chile, y que cumplan copulativamente con todos y cada uno de los siguientes requisitos: a) Calidad de cliente. Ser cliente de Banco Santander Chile. Adicionalmente, el cliente deberá cumplir con las siguientes condiciones: i. Hab"
     }
   },
-  "last_check": "2026-07-31T11:16:44.422752-04:00",
+  "last_check": "2026-08-01T10:24:57.489366-04:00",
   "total": 99
 }
