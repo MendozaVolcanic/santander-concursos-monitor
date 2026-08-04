@@ -886,8 +886,15 @@
       "mes": "Agosto",
       "anio": 2026,
       "first_seen": "2026-08-03T11:41:26.548912-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-sorteo-experiencia-formula-1-select": {
+      "titulo": "Ganadores Sorteo Experiencia Formula 1 Select",
+      "tipo": "ganadores",
+      "mes": "Agosto",
+      "anio": 2026,
+      "first_seen": "2026-08-04T11:22:33.298461-04:00"
     }
   },
-  "last_check": "2026-08-03T11:41:26.548912-04:00",
+  "last_check": "2026-08-04T11:22:33.298461-04:00",
   "total": 99
 }
