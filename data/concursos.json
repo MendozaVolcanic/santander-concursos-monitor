@@ -893,8 +893,17 @@
       "mes": "Agosto",
       "anio": 2026,
       "first_seen": "2026-08-04T11:22:33.298461-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-sorteo-millas-dia-del-nino": {
+      "titulo": "Bases Sorteo Millas Día del Niño",
+      "tipo": "bases",
+      "mes": "Agosto",
+      "anio": 2026,
+      "first_seen": "2026-08-05T11:11:39.617101-04:00",
+      "vigencia": "SEGUNDO: Mecánica del Concurso y vigencia de la promoción Podrán participar en el Concurso todos los clientes que cumplan con los requisitos establecidos en la cláusula precedente y que, durante el período de vigencia del concurso, entre el 04 de agosto y 10 de agosto de 2026, cumplan copulativament",
+      "requisitos": "A quiénes se dirige el Concurso Podrán participar en el Concurso regulado por las presentes Bases únicamente las personas naturales que sean clientes de Banco Santander Chile, y que cumplan copulativamente con todos y cada uno de los siguientes requisitos: a) Calidad de cliente. Ser cliente de Banco Santander Chile. Adicionalmente, el cliente deberá cumplir con las siguientes condiciones: a. Tener"
     }
   },
-  "last_check": "2026-08-04T11:22:33.298461-04:00",
+  "last_check": "2026-08-05T11:11:39.617101-04:00",
   "total": 99
 }
