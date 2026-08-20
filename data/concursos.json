@@ -918,8 +918,26 @@
       "mes": "Agosto",
       "anio": 2026,
       "first_seen": "2026-08-15T09:27:21.216852-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-formula-1": {
+      "titulo": "Bases Concurso Formula 1",
+      "tipo": "bases",
+      "mes": "Agosto",
+      "anio": 2026,
+      "first_seen": "2026-08-20T09:42:27.694906-04:00",
+      "vigencia": "SEGUNDO: Mecánica y Vigencia del Concurso El Concurso se encontrará vigente desde las 19:00 horas del día 20 de agosto de 2026 hasta las 23:59 horas del día 26 de agosto de 2026, ambas fechas inclusive.",
+      "requisitos": "A quienes se dirige el Concurso Podrán participar en el Concurso regulado por las presentes Bases únicamente las personas naturales que sean clientes de Banco Santander Chile, y que cumplan copulativamente con todos y cada uno de los siguientes requisitos: a) Ser persona natural mayor de 18 años y contar con cédula de identidad vigente. b) Ser cliente de Banco Santander Chile y mantener vigente, d"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-sorteo-millas-dia-del-nino": {
+      "titulo": "Ganadores Sorteo Millas Día del Niño Ver ganadores",
+      "tipo": "bases",
+      "mes": null,
+      "anio": null,
+      "first_seen": "2026-08-20T09:42:27.694906-04:00",
+      "vigencia": null,
+      "requisitos": null
     }
   },
-  "last_check": "2026-08-19T09:41:29.235535-04:00",
+  "last_check": "2026-08-20T09:42:27.694906-04:00",
   "total": 99
 }
