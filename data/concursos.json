@@ -936,8 +936,15 @@
       "first_seen": "2026-08-20T09:42:27.694906-04:00",
       "vigencia": null,
       "requisitos": null
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/sorteo-millas-copa-santander": {
+      "titulo": "Sorteo millas Copa Santander",
+      "tipo": "ganadores",
+      "mes": "Agosto",
+      "anio": 2026,
+      "first_seen": "2026-08-25T09:45:31.091443-04:00"
     }
   },
-  "last_check": "2026-08-24T09:47:36.359581-04:00",
+  "last_check": "2026-08-25T09:45:31.091443-04:00",
   "total": 99
 }
