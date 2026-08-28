@@ -943,8 +943,26 @@
       "mes": "Agosto",
       "anio": 2026,
       "first_seen": "2026-08-25T09:45:31.091443-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-aespa": {
+      "titulo": "Bases Concurso Aespa",
+      "tipo": "bases",
+      "mes": "Agosto",
+      "anio": 2026,
+      "first_seen": "2026-08-28T18:52:20.958321-04:00",
+      "vigencia": "SEGUNDO: Mecánica y Vigencia del Concurso El Concurso se encontrará vigente desde las 14:00 horas del día 28 de agosto de 2026 hasta las 08:30 horas del día 31 de agosto de 2026.",
+      "requisitos": "A quienes se dirige el Concurso Podrán participar en el Concurso regulado por las presentes Bases únicamente las personas naturales que sean clientes de Banco Santander Chile, y que cumplan copulativamente con todos y cada uno de los siguientes requisitos: a) Ser persona natural mayor de 18 años y contar con cédula de identidad vigente. b) Ser cliente de Banco Santander Chile y mantener vigente, d"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-gymkana-santander": {
+      "titulo": "Bases Gymkana Santander",
+      "tipo": "bases",
+      "mes": "Agosto",
+      "anio": 2026,
+      "first_seen": "2026-08-28T18:52:20.958321-04:00",
+      "vigencia": "SEGUNDO: Mecánica y vigencia del Concurso Podrán participar en el Concurso todos los clientes que cumplan con los requisitos establecidos en la cláusula precedente y que, durante el período de vigencia del concurso, entre el 24 de agosto y 31 de agosto de 2026, cumplan copulativamente con la siguien",
+      "requisitos": "A quienes se dirige el Concurso Podrán participar en el Concurso regulado por las presentes Bases únicamente las personas naturales que sean clientes de Banco Santander Chile, y que cumplan copulativamente con todos y cada uno de los siguientes requisitos: a) Calidad de cliente. Ser cliente de Banco Santander Chile. Adicionalmente, el cliente deberá cumplir con las siguientes condiciones: a. Ser t"
     }
   },
-  "last_check": "2026-08-27T18:45:13.667535-04:00",
+  "last_check": "2026-08-28T18:52:20.958321-04:00",
   "total": 99
 }
