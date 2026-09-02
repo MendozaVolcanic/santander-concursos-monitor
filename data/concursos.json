@@ -961,8 +961,26 @@
       "first_seen": "2026-08-28T18:52:20.958321-04:00",
       "vigencia": "SEGUNDO: Mecánica y vigencia del Concurso Podrán participar en el Concurso todos los clientes que cumplan con los requisitos establecidos en la cláusula precedente y que, durante el período de vigencia del concurso, entre el 24 de agosto y 31 de agosto de 2026, cumplan copulativamente con la siguien",
       "requisitos": "A quienes se dirige el Concurso Podrán participar en el Concurso regulado por las presentes Bases únicamente las personas naturales que sean clientes de Banco Santander Chile, y que cumplan copulativamente con todos y cada uno de los siguientes requisitos: a) Calidad de cliente. Ser cliente de Banco Santander Chile. Adicionalmente, el cliente deberá cumplir con las siguientes condiciones: a. Ser t"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-5sos-cuenta-corriente-digital": {
+      "titulo": "Bases Concurso 5SOS - Cuenta Corriente Digital",
+      "tipo": "bases",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-02T12:58:26.436230-04:00",
+      "vigencia": "SEGUNDO: Mecánica del Concurso y vigencia de la promoción Participarán en el Concurso todos los clientes que cumplan los requisitos del punto anterior y que entre el 31 de agosto de 2026 y 09 de septiembre de 2026 cumplan la siguiente mecánica: realizar al menos 3 compras entre el 31 de agosto de 20",
+      "requisitos": "A quienes se dirige el Concurso El Concurso que regulan estas bases se dirige exclusivamente a las personas que cumplan con los siguientes requisitos copulativos: a) Ser mayor de 18 años, con cédula de identidad vigente. b) Cliente persona natural, titular de la Cuenta Corriente Digital, Cuenta Life, Cuenta Más Lucas o Tarjeta de Crédito Life del Banco Santander Chile. Para tener derecho a optar a"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-invita-y-gana-cuenta-corrient-digital": {
+      "titulo": "Bases Invita y Gana - Cuenta Corriente Digital",
+      "tipo": "bases",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-02T12:58:26.436230-04:00",
+      "vigencia": null,
+      "requisitos": null
     }
   },
-  "last_check": "2026-09-01T13:08:06.055778-04:00",
+  "last_check": "2026-09-02T12:58:26.436230-04:00",
   "total": 99
 }
