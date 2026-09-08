@@ -979,8 +979,24 @@
       "first_seen": "2026-09-02T12:58:26.436230-04:00",
       "vigencia": null,
       "requisitos": null
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/concursos-santander-arena-2026": {
+      "titulo": "Concursos Santander Arena 2026",
+      "tipo": "bases",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-08T13:03:12.285734-04:00",
+      "vigencia": "Bases de concursos | Santander Arena – RR.SS 2026 Banco Santander Chile ANEXO N°1 EVENTOS Y FECHAS DE PARTICIPACIÓN “Santander Arena 2026” PRIMERO: Eventos y vigencia Evento Fecha(s) del evento Lugar de evento Vigencia del concurso Tres noches de pop colombiano en Santander Arena 14-09-26 Santander ",
+      "requisitos": "A quiénes se dirige el Concurso Podrán concursar quienes cumplan los siguientes requisitos copulativos: 1. Ser persona natural mayor de 18 años y residir en Chile. 2. Cumplir íntegramente la mecánica señalada en la cláusula segunda y las demás condiciones establecidas en estas bases."
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-concurso-aespa": {
+      "titulo": "Ganadores Concurso Aespa",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-08T13:03:12.285734-04:00"
     }
   },
-  "last_check": "2026-09-07T14:04:33.605291-04:00",
+  "last_check": "2026-09-08T13:03:12.285734-04:00",
   "total": 99
 }
