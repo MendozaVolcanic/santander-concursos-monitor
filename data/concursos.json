@@ -1004,8 +1004,26 @@
       "first_seen": "2026-09-09T13:00:37.365843-04:00",
       "vigencia": null,
       "requisitos": null
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-de-concurso-smusic-5": {
+      "titulo": "Bases de Concurso Smusic 5",
+      "tipo": "bases",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-10T12:52:44.950970-04:00",
+      "vigencia": null,
+      "requisitos": null
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-gana-con-smusic": {
+      "titulo": "Bases concurso Gana con Smusic",
+      "tipo": "bases",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-10T12:52:44.950970-04:00",
+      "vigencia": null,
+      "requisitos": null
     }
   },
-  "last_check": "2026-09-09T13:00:37.365843-04:00",
+  "last_check": "2026-09-10T12:52:44.950970-04:00",
   "total": 99
 }
