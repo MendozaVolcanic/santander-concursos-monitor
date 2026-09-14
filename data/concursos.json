@@ -1031,8 +1031,22 @@
       "first_seen": "2026-09-11T12:53:13.493257-04:00",
       "vigencia": "SEGUNDO: Mecánica del Concurso y vigencia de la promoción Participarán en el Concurso todos los clientes que cumplan los requisitos del punto anterior y que cumplan la siguiente mecánica: realizar al menos 3 compras entre el 10 y 20 de septiembre de 2026.",
       "requisitos": "A quienes se dirige el Concurso El Concurso que regulan estas bases se dirige exclusivamente a las personas que cumplan con los siguientes requisitos copulativos: a) Ser mayor de 18 años, con cédula de identidad vigente. b) Cliente persona natural, titular de la Cuenta Corriente Digital, Cuenta Life, Cuenta Más Lucas o Tarjeta de Crédito Life del Banco Santander Chile. Para tener derecho a optar a"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-smusic-5sos": {
+      "titulo": "Ganadores SMUSIC - 5SOS",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-14T14:19:50.111139-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-muevete-al-ritmo-del-funk": {
+      "titulo": "Ganadores SMUSIC - Muévete al ritmo del funk",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-14T14:19:50.111139-04:00"
     }
   },
-  "last_check": "2026-09-13T12:48:26.806558-04:00",
+  "last_check": "2026-09-14T14:19:50.111139-04:00",
   "total": 99
 }
