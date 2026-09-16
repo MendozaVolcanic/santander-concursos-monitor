@@ -1052,8 +1052,15 @@
       "mes": "Septiembre",
       "anio": 2026,
       "first_seen": "2026-09-15T13:27:25.442810-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-noche-de-pop-colombiano": {
+      "titulo": "Ganadores \"Noche de Pop Colombiano\"",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-16T13:27:07.155414-04:00"
     }
   },
-  "last_check": "2026-09-15T13:27:25.442810-04:00",
+  "last_check": "2026-09-16T13:27:07.155414-04:00",
   "total": 99
 }
