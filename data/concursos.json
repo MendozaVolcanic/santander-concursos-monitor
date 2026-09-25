@@ -1066,8 +1066,43 @@
       "mes": "Septiembre",
       "anio": 2026,
       "first_seen": "2026-09-22T13:30:32.856113-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-hablando-huevadas": {
+      "titulo": "Ganadores Smusic - Hablando Huevadas",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-25T13:45:13.232858-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-maria-jose-quintanilla": {
+      "titulo": "Ganadores Smusic - María José Quintanilla",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-25T13:45:13.232858-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-sorteo-alex-hubago": {
+      "titulo": "Ganadores Smusic - Alex Hubago",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-25T13:45:13.232858-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-sorteo-beele": {
+      "titulo": "Ganadores Smusic - Sorteo Beele",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-25T13:45:13.232858-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-david-bisbal": {
+      "titulo": "Ganadores Smusic - David Bisbal",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-25T13:45:13.232858-04:00"
     }
   },
-  "last_check": "2026-09-24T13:43:51.256931-04:00",
+  "last_check": "2026-09-25T13:45:13.232858-04:00",
   "total": 99
 }
