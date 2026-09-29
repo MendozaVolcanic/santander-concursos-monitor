@@ -1101,8 +1101,80 @@
       "mes": "Septiembre",
       "anio": 2026,
       "first_seen": "2026-09-25T13:45:13.232858-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-una-noche-de-musica-chilena": {
+      "titulo": "Ganadores Smusic “Una noche de música chilena\" 04/10",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-29T14:26:56.262786-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-ccd-una-noche-de-humor-peruano-en-santander-arena": {
+      "titulo": "Ganadores Smusic - CCD \"Una noche de humor peruano en Santander Arena”",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-29T14:26:56.262786-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-ccd-una-noche-de-rap-argentino-en-santander-arena": {
+      "titulo": "Ganadores Smusic - CCD \"Una noche de rap argentino en Santander Arena\"",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-29T14:26:56.262786-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-ccd-una-noche-de-musica-chilena-en-santander-arena": {
+      "titulo": "Ganadores Smusic - CCD \"Una noche de música chilena en Santander Arena”",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-29T14:26:56.262786-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-una-noche-de-humor-peruano": {
+      "titulo": "Ganadores Smusic “Una noche de humor peruano\"",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-29T14:26:56.262786-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-sorteo-experiencia-pop-romantico-espanol": {
+      "titulo": "Ganadores Smusic “Experiencia de pop romántico español\"",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-29T14:26:56.262786-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-sorteo-noche-de-ritmos-cubanos": {
+      "titulo": "Ganadores Smusic “Noche de ritmos urbanos colombianos\"",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-29T14:26:56.262786-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-noche-de-pop-colombiano": {
+      "titulo": "Ganadores Smusic \"Noche de Pop Colombiano\"",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-29T14:26:56.262786-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-concurso-zayn-cuenta-corriente-digital": {
+      "titulo": "Ganadores Concurso Zayn - Cuenta Corriente Digital",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-29T14:26:56.262786-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/concurso-iron-maiden-cuenta-corriente-digital": {
+      "titulo": "Concurso Iron Maiden - Cuenta Corriente Digital",
+      "tipo": "bases",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-09-29T14:26:56.262786-04:00",
+      "vigencia": "SEGUNDO: Mecánica del Concurso y vigencia de la promoción Participarán en el Concurso todos los clientes que cumplan los requisitos del punto anterior y que cumplan la siguiente mecánica: realizar al menos 3 compras entre el 29 de septiembre y el 18 de octubre de 2026.",
+      "requisitos": "A quienes se dirige el Concurso El Concurso que regulan estas bases se dirige exclusivamente a las personas que cumplan con los siguientes requisitos copulativos: a) Ser mayor de 18 años, con cédula de identidad vigente. b) Cliente persona natural, titular de la Cuenta Corriente Digital, Cuenta Life, Cuenta Más Lucas o Tarjeta de Crédito Life del Banco Santander Chile. Para tener derecho a optar a"
     }
   },
-  "last_check": "2026-09-28T15:58:32.449318-04:00",
+  "last_check": "2026-09-29T14:26:56.262786-04:00",
   "total": 99
 }
