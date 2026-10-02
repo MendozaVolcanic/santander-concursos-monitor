@@ -1180,8 +1180,22 @@
       "mes": "Septiembre",
       "anio": 2026,
       "first_seen": "2026-09-30T14:15:53.611058-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-zayn-02-10": {
+      "titulo": "Ganadores Smusic Zayn 02/10 - Cancha general",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-10-02T14:11:34.658675-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-zayn-02-10-2": {
+      "titulo": "Ganadores Smusic Zayn 02/10",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-10-02T14:11:34.658675-04:00"
     }
   },
-  "last_check": "2026-10-01T14:40:59.223467-04:00",
+  "last_check": "2026-10-02T14:11:34.658675-04:00",
   "total": 99
 }
