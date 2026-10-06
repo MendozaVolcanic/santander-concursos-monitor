@@ -1194,8 +1194,26 @@
       "mes": "Septiembre",
       "anio": 2026,
       "first_seen": "2026-10-02T14:11:34.658675-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-golden-ticket": {
+      "titulo": "Bases Concurso - Golden Ticket",
+      "tipo": "bases",
+      "mes": "Octubre",
+      "anio": 2026,
+      "first_seen": "2026-10-06T14:45:19.375724-04:00",
+      "vigencia": "Entre aquellos participantes que realicen 3 o más compras, se realizarán sorteos conforme a los siguientes periodos: • Periodo N°1: entre el 01 de octubre y el 14 de octubre de 2026.",
+      "requisitos": "A quienes se dirige el Concurso El Concurso que regulan estas bases se dirige exclusivamente a las personas que cumplan con los siguientes requisitos copulativos: a) Ser mayor de 18 años, con cédula de identidad vigente. b) Cliente persona natural, titular de la Cuenta Corriente Digital, Cuenta Life, Cuenta Más Lucas o Tarjeta de Crédito Life del Banco Santander Chile. Para tener derecho a optar a"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/sorteo-millas-3-cuotas-sin-interes-cyber-2": {
+      "titulo": "Sorteo millas - 3 cuotas sin interés Cyber",
+      "tipo": "bases",
+      "mes": "Octubre",
+      "anio": 2026,
+      "first_seen": "2026-10-06T14:45:19.375724-04:00",
+      "vigencia": "SEGUNDO: Mecánica y vigencia del Concurso Podrán participar en el Concurso todos los clientes que cumplan con los requisitos establecidos en la cláusula precedente y que, durante el período de vigencia del concurso, entre el 05 y 11 de octubre de 2026, cumplan copulativamente con la siguiente mecáni",
+      "requisitos": "A quiénes se dirige el Concurso Podrán participar en el Concurso regulado por las presentes Bases únicamente las personas naturales que sean clientes de Banco Santander Chile, y que cumplan copulativamente con todos y cada uno de los siguientes requisitos: a) Calidad de cliente. Ser cliente de Banco Santander Chile. Adicionalmente, el cliente deberá cumplir con las siguientes condiciones: a. Ser t"
     }
   },
-  "last_check": "2026-10-04T13:16:04.220934-04:00",
+  "last_check": "2026-10-06T14:45:19.375724-04:00",
   "total": 99
 }
