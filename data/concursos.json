@@ -1251,8 +1251,22 @@
       "first_seen": "2026-10-09T14:38:10.909073-04:00",
       "vigencia": "SEGUNDO: Mecánica y Vigencia del Concurso El Concurso se encontrará vigente desde las 19:00 horas del día 11 de septiembre de 2026 hasta las 23:59 horas del día 30 de septiembre de 2026, ambas fechas inclusive.",
       "requisitos": "A quienes se dirige el Concurso Podrán participar en el Concurso regulado por las presentes Bases únicamente las personas naturales que sean clientes de Banco Santander Chile, y que cumplan copulativamente con todos y cada uno de los siguientes requisitos: a. Ser persona natural mayor de 18 años y contar con cédula de identidad vigente. b. Ser cliente del segmento pyme de Banco Santander Chile y m"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-ccd-una-noche-de-metal-neerlandes-en-santander-arena": {
+      "titulo": "Ganadores Smusic - CCD \"Una noche de metal neerlandés en Santander Arena”",
+      "tipo": "ganadores",
+      "mes": "Octubre",
+      "anio": 2026,
+      "first_seen": "2026-10-13T15:43:49.662185-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-ccd-una-noche-de-musica-chilena-en-santander-arena-3": {
+      "titulo": "Ganadores Smusic - CCD \"Una noche de música chilena en Santander Arena”",
+      "tipo": "ganadores",
+      "mes": "Octubre",
+      "anio": 2026,
+      "first_seen": "2026-10-13T15:43:49.662185-04:00"
     }
   },
-  "last_check": "2026-10-12T17:32:08.659144-04:00",
+  "last_check": "2026-10-13T15:43:49.662185-04:00",
   "total": 99
 }
