@@ -1265,8 +1265,22 @@
       "mes": "Octubre",
       "anio": 2026,
       "first_seen": "2026-10-13T15:43:49.662185-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-una-noche-de-metal-neerlandes-en-santander-arena-17-10": {
+      "titulo": "Ganadores Smusic \"Una noche de metal neerlandés en Santander Arena\" 17/10",
+      "tipo": "ganadores",
+      "mes": "Octubre",
+      "anio": 2026,
+      "first_seen": "2026-10-15T13:34:27.412953-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-ritmos-urbanos-desde-espana-en-santander-arena-16-10": {
+      "titulo": "Ganadores Smusic \"Ritmos urbanos desde España en Santander Arena”",
+      "tipo": "ganadores",
+      "mes": "Septiembre",
+      "anio": 2026,
+      "first_seen": "2026-10-15T13:34:27.412953-04:00"
     }
   },
-  "last_check": "2026-10-14T13:46:13.171910-04:00",
+  "last_check": "2026-10-15T13:34:27.412953-04:00",
   "total": 99
 }
