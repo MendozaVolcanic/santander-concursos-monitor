@@ -1279,8 +1279,45 @@
       "mes": "Septiembre",
       "anio": 2026,
       "first_seen": "2026-10-15T13:34:27.412953-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-maria-jose-quintanilla-20-10": {
+      "titulo": "Ganadores Smusic \"Una noche de música chilena en Santander Arena” 20/10",
+      "tipo": "ganadores",
+      "mes": "Octubre",
+      "anio": 2026,
+      "first_seen": "2026-10-16T13:10:10.491996-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-smusic-pyme": {
+      "titulo": "Bases Concurso SMusic Pyme",
+      "tipo": "bases",
+      "mes": "Octubre",
+      "anio": 2026,
+      "first_seen": "2026-10-16T13:10:10.491996-04:00",
+      "vigencia": "El periodo de vigencia general del Concurso se extenderá hasta el 31 de diciembre de 2026.",
+      "requisitos": "A quiénes se dirige el Concurso Podrán concursar quienes cumplan los siguientes requisitos: 1. Cliente persona natural, mayor de 18 años con cédula de identidad vigente, titular de una Cuenta Corriente con Tarjeta de débito y/o Tarjeta de Crédito activas de Banco Santander Chile correspondientes al Segmento Pyme, y/o; 2. Cliente Persona jurídica, titular de una Cuenta Corriente con Tarjeta de débi"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-ccd-una-noche-de-reggaeton-femenino-en-santander-arena-16-10": {
+      "titulo": "Ganadores Smusic - CCD \"Una noche de reggaetón femenino en Santander Arena\" 16/10",
+      "tipo": "ganadores",
+      "mes": "Octubre",
+      "anio": 2026,
+      "first_seen": "2026-10-16T13:10:10.491996-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-ccd-una-noche-de-musica-urbana-colombiana-en-santander-arena-20-10": {
+      "titulo": "Ganadores Smusic - CCD \"Una noche de música urbana colombiana en Santander Arena 20/10",
+      "tipo": "ganadores",
+      "mes": "Octubre",
+      "anio": 2026,
+      "first_seen": "2026-10-16T13:10:10.491996-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-una-noche-de-pop-espanol-en-santander-arena-19-10": {
+      "titulo": "Ganadores Smusic \"Una noche de pop español en Santander Arena” 19/10",
+      "tipo": "ganadores",
+      "mes": "Octubre",
+      "anio": 2026,
+      "first_seen": "2026-10-16T13:10:10.491996-04:00"
     }
   },
-  "last_check": "2026-10-15T13:34:27.412953-04:00",
+  "last_check": "2026-10-16T13:10:10.491996-04:00",
   "total": 99
 }
