@@ -1323,8 +1323,24 @@
       "mes": "Octubre",
       "anio": 2026,
       "first_seen": "2026-10-17T12:08:32.034719-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-una-noche-de-musica-urbana-colombiana-en-santander-arena-31-10": {
+      "titulo": "Ganadores Smusic \"Una noche de música urbana colombiana en Santander Arena” 31/10",
+      "tipo": "ganadores",
+      "mes": "Octubre",
+      "anio": 2026,
+      "first_seen": "2026-10-20T13:44:59.513515-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-entradas-x-entradas-iron-maiden": {
+      "titulo": "Bases Concurso Entradas x Entradas Iron Maiden",
+      "tipo": "bases",
+      "mes": "Octubre",
+      "anio": 2026,
+      "first_seen": "2026-10-20T13:44:59.513515-04:00",
+      "vigencia": "SEGUNDO: Mecánica y vigencia del Concurso El Concurso se encontrará vigente desde las 14:00 horas del día 19 de octubre de 2026 hasta las 23:59 horas del día 25 de octubre de 2026.",
+      "requisitos": "A quiénes se dirige el Concurso Podrán participar en el Concurso regulado por las presentes Bases únicamente las personas naturales que sean clientes de Banco Santander Chile, y que cumplan copulativamente con todos y cada uno de los siguientes requisitos: a) Ser persona natural mayor de 18 años y contar con cédula de identidad vigente. b) Seguir a la cuenta oficial de Instagram @SantanderChile. c"
     }
   },
-  "last_check": "2026-10-19T14:58:10.674547-04:00",
+  "last_check": "2026-10-20T13:44:59.513515-04:00",
   "total": 99
 }
