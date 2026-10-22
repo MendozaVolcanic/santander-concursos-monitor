@@ -1346,8 +1346,24 @@
       "mes": "Noviembre",
       "anio": 2026,
       "first_seen": "2026-10-21T13:52:50.899233-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-una-noche-de-musica-mexicana-en-santander-arena-04-11-2026": {
+      "titulo": "Ganadores Smusic Una noche de música mexicana en Santander Arena 04/11/2026",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-10-22T13:50:41.069410-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/activa-tu-ahorro-automatico-2": {
+      "titulo": "Activa tu Ahorro Automático",
+      "tipo": "bases",
+      "mes": "Octubre",
+      "anio": 2026,
+      "first_seen": "2026-10-22T13:50:41.069410-04:00",
+      "vigencia": "Página 2 de 6 El período de vigencia del Concurso será desde las 00:00 horas del día 23 de octubre de 2026 hasta las 23:59 horas del día 7 de noviembre de 2026.",
+      "requisitos": "A quiénes se dirige el Concurso El Concurso que regulan estas bases está dirigido exclusivamente a las personas que cumplan con los siguientes requisitos copulativos: 1. Ser persona natural mayor de 18 años y contar con cédula de identidad vigente. 2. Ser Cliente del Banco y titular de un contrato de tarjeta de crédito asociado a alguna de las siguientes tarjetas Santander LATAM Pass, vigente y ac"
     }
   },
-  "last_check": "2026-10-21T13:52:50.899233-04:00",
+  "last_check": "2026-10-22T13:50:41.069410-04:00",
   "total": 99
 }
