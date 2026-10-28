@@ -1362,8 +1362,22 @@
       "first_seen": "2026-10-22T13:50:41.069410-04:00",
       "vigencia": "Página 2 de 6 El período de vigencia del Concurso será desde las 00:00 horas del día 23 de octubre de 2026 hasta las 23:59 horas del día 7 de noviembre de 2026.",
       "requisitos": "A quiénes se dirige el Concurso El Concurso que regulan estas bases está dirigido exclusivamente a las personas que cumplan con los siguientes requisitos copulativos: 1. Ser persona natural mayor de 18 años y contar con cédula de identidad vigente. 2. Ser Cliente del Banco y titular de un contrato de tarjeta de crédito asociado a alguna de las siguientes tarjetas Santander LATAM Pass, vigente y ac"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-iron-maden-01-11": {
+      "titulo": "Ganadores Smusic - Iron Maden 01/11",
+      "tipo": "ganadores",
+      "mes": "Octubre",
+      "anio": 2026,
+      "first_seen": "2026-10-28T14:38:16.759048-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-iron-maden-31-10": {
+      "titulo": "Ganadores Smusic Iron Maden 31/10",
+      "tipo": "ganadores",
+      "mes": "Octubre",
+      "anio": 2026,
+      "first_seen": "2026-10-28T14:38:16.759048-04:00"
     }
   },
-  "last_check": "2026-10-27T14:32:15.452805-04:00",
+  "last_check": "2026-10-28T14:38:16.759048-04:00",
   "total": 99
 }
