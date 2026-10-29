@@ -1376,8 +1376,17 @@
       "mes": "Octubre",
       "anio": 2026,
       "first_seen": "2026-10-28T14:38:16.759048-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-ccd-una-noche-de-metal-progresivo-en-santander-arena": {
+      "titulo": "Ganadores Smusic - CCD \"Una noche de metal progresivo en Santander Arena\" Ver ganadores",
+      "tipo": "bases",
+      "mes": null,
+      "anio": null,
+      "first_seen": "2026-10-29T14:46:21.916794-04:00",
+      "vigencia": null,
+      "requisitos": null
     }
   },
-  "last_check": "2026-10-28T14:38:16.759048-04:00",
+  "last_check": "2026-10-29T14:46:21.916794-04:00",
   "total": 99
 }
