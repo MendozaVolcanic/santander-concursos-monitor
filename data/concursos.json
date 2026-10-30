@@ -1385,8 +1385,24 @@
       "first_seen": "2026-10-29T14:46:21.916794-04:00",
       "vigencia": null,
       "requisitos": null
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-concurso-entradas-x-entradas-rrss": {
+      "titulo": "Ganadores Concurso Entradas x Entradas - RRSS",
+      "tipo": "ganadores",
+      "mes": "Octubre",
+      "anio": 2026,
+      "first_seen": "2026-10-30T14:23:07.943653-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/una-noche-de-metal-progresivo-sueco-en-santander-arena-01-11": {
+      "titulo": "Una noche de metal progresivo sueco en Santander Arena 01/11 Noviembre Ver ganadores",
+      "tipo": "bases",
+      "mes": null,
+      "anio": null,
+      "first_seen": "2026-10-30T14:23:07.943653-04:00",
+      "vigencia": null,
+      "requisitos": null
     }
   },
-  "last_check": "2026-10-29T14:46:21.916794-04:00",
+  "last_check": "2026-10-30T14:23:07.943653-04:00",
   "total": 99
 }
