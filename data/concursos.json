@@ -1401,8 +1401,26 @@
       "first_seen": "2026-10-30T14:23:07.943653-04:00",
       "vigencia": null,
       "requisitos": null
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-de-concurso-actualiza-tu-renta": {
+      "titulo": "Bases de Concurso Actualiza tu renta",
+      "tipo": "bases",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-02T18:05:53.181578-04:00",
+      "vigencia": null,
+      "requisitos": null
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/concursos-redes-sociales-app-campus-2026": {
+      "titulo": "Concursos Redes Sociales App Campus 2026",
+      "tipo": "bases",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-02T18:05:53.181578-04:00",
+      "vigencia": null,
+      "requisitos": null
     }
   },
-  "last_check": "2026-11-01T14:14:19.416222-04:00",
+  "last_check": "2026-11-02T18:05:53.181578-04:00",
   "total": 99
 }
