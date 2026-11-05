@@ -1433,8 +1433,31 @@
       "mes": "Noviembre",
       "anio": 2026,
       "first_seen": "2026-11-04T16:14:33.852003-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-una-noche-de-pop-latino-en-santander-arena-05-11": {
+      "titulo": "Ganadores Smusic \"Una noche de pop latino en Santander Arena” 05/11",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-05T16:27:45.920091-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/activa-tu-maquina-roja-de-santander-en-tu-barrio": {
+      "titulo": "Activa tu maquina roja de Santander en tu Barrio",
+      "tipo": "bases",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-05T16:27:45.920091-04:00",
+      "vigencia": null,
+      "requisitos": null
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-una-noche-de-rock-britanico-en-santander-arena-08-11": {
+      "titulo": "Ganadores Smusic \"Una noche de rock británico en Santander Arena” 08/11",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-05T16:27:45.920091-04:00"
     }
   },
-  "last_check": "2026-11-04T16:14:33.852003-04:00",
+  "last_check": "2026-11-05T16:27:45.920091-04:00",
   "total": 99
 }
