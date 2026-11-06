@@ -1456,8 +1456,31 @@
       "mes": "Noviembre",
       "anio": 2026,
       "first_seen": "2026-11-05T16:27:45.920091-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-concurso-aniversario-workcafe": {
+      "titulo": "Bases Concurso Aniversario WorkCafé",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-06T15:49:53.061673-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-una-noche-de-cumbia-chilena-en-santander-arena-06-11": {
+      "titulo": "Ganadores Smusic \"Una noche de cumbia chilena en Santander Arena” 06/11",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-06T15:49:53.061673-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-ccd-una-noche-de-cumbia-chilena-en-santander-arena": {
+      "titulo": "Ganadores Smusic - CCD \"Una noche de cumbia chilena en Santander Arena\" Ver ganadores",
+      "tipo": "bases",
+      "mes": null,
+      "anio": null,
+      "first_seen": "2026-11-06T15:49:53.061673-04:00",
+      "vigencia": null,
+      "requisitos": null
     }
   },
-  "last_check": "2026-11-05T16:27:45.920091-04:00",
+  "last_check": "2026-11-06T15:49:53.061673-04:00",
   "total": 99
 }
