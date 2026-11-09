@@ -1479,8 +1479,22 @@
       "first_seen": "2026-11-06T15:49:53.061673-04:00",
       "vigencia": null,
       "requisitos": null
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganador-golden-ticket": {
+      "titulo": "Ganador Golden Ticket",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-09T18:51:04.547726-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-ccd-una-noche-de-rock-espanol-en-santander-arena": {
+      "titulo": "Ganadores Smusic - CCD \"Una noche de rock español en Santander Arena\"",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-09T18:51:04.547726-04:00"
     }
   },
-  "last_check": "2026-11-08T14:12:00.534614-04:00",
+  "last_check": "2026-11-09T18:51:04.547726-04:00",
   "total": 99
 }
