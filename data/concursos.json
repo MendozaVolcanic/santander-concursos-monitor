@@ -1493,8 +1493,15 @@
       "mes": "Noviembre",
       "anio": 2026,
       "first_seen": "2026-11-09T18:51:04.547726-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganadores-millas-3-cuotas-sin-interes-cyber": {
+      "titulo": "Ganadores millas - 3 cuotas sin interés Cyber",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-10T16:11:16.281476-04:00"
     }
   },
-  "last_check": "2026-11-09T18:51:04.547726-04:00",
+  "last_check": "2026-11-10T16:11:16.281476-04:00",
   "total": 99
 }
