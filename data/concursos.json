@@ -1500,8 +1500,22 @@
       "mes": "Noviembre",
       "anio": 2026,
       "first_seen": "2026-11-10T16:11:16.281476-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-millas-gymkana-santander": {
+      "titulo": "Ganadores Millas Gymkana Santander",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-12T16:38:07.731978-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-cashback-gymkana-santander": {
+      "titulo": "Ganadores Cashback Gymkana Santander",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-12T16:38:07.731978-04:00"
     }
   },
-  "last_check": "2026-11-11T15:59:12.243914-04:00",
+  "last_check": "2026-11-12T16:38:07.731978-04:00",
   "total": 99
 }
