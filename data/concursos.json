@@ -1544,8 +1544,29 @@
       "first_seen": "2026-11-13T16:17:00.223061-04:00",
       "vigencia": null,
       "requisitos": null
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-katteyes-19-11-2": {
+      "titulo": "Ganadores Smusic “Katteyes” 19/11",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-17T17:29:19.935419-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-katteyes-19-11": {
+      "titulo": "Ganadores Smusic “Katteyes” 19/11",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-17T17:29:19.935419-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-una-noche-de-pop-romantico-mexicano-en-santander-arena-20-11": {
+      "titulo": "Ganadores Smusic “Una noche de pop romántico mexicano en Santander Arena” 20/11",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-17T17:29:19.935419-04:00"
     }
   },
-  "last_check": "2026-11-16T18:43:14.192307-04:00",
+  "last_check": "2026-11-17T17:29:19.935419-04:00",
   "total": 99
 }
