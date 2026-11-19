@@ -1565,8 +1565,45 @@
       "mes": "Noviembre",
       "anio": 2026,
       "first_seen": "2026-11-17T17:29:19.935419-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-dg-medios-djavan-21-11": {
+      "titulo": "Ganadores DG Medios “DJAVAN” 21/11",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-19T17:09:25.522566-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-dg-medios-ed-sheeran-21-11": {
+      "titulo": "Ganadores DG Medios “Ed Sheeran” 21/11",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-19T17:09:25.522566-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-dg-medios-ccd-ed-sheeran": {
+      "titulo": "Ganadores DG Medios - CCD “Ed Sheeran\"",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-19T17:09:25.522566-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-dg-medios-ccd-katteyes": {
+      "titulo": "Ganadores DG Medios - CCD “Katteyes\"",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-19T17:09:25.522566-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-santander-arena-una-noche-de-rock-argentino-en-santander-arena-21-11": {
+      "titulo": "Ganadores Santander Arena “Una noche de rock argentino en Santander Arena\" 21/11 Noviembre Ver ganadores",
+      "tipo": "bases",
+      "mes": null,
+      "anio": null,
+      "first_seen": "2026-11-19T17:09:25.522566-04:00",
+      "vigencia": null,
+      "requisitos": null
     }
   },
-  "last_check": "2026-11-18T17:10:58.711905-04:00",
+  "last_check": "2026-11-19T17:09:25.522566-04:00",
   "total": 99
 }
