@@ -1602,8 +1602,45 @@
       "first_seen": "2026-11-19T17:09:25.522566-04:00",
       "vigencia": null,
       "requisitos": null
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-ccd-la-voz-kazaja-del-momento": {
+      "titulo": "Ganadores Smusic - CCD “La voz kazaja del momento\"",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-20T16:54:51.588950-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-smusic-ccd-una-noche-de-musica-urbana-argentina-en-santander-arena": {
+      "titulo": "Ganadores Smusic - CCD “Una noche de música urbana argentina en Santander Arena\"",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-20T16:54:51.588950-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-santander-arena-una-noche-de-musica-urbana-argentina-en-santander-arena-23-11": {
+      "titulo": "Ganadores Santander Arena “Una noche de música urbana argentina en Santander Arena” 23/11",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-20T16:54:51.588950-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-santander-arena-una-experiencia-musical-juvenil-en-santander-arena-22-11": {
+      "titulo": "Ganadores Santander Arena “Una experiencia musical juvenil en Santander Arena” 22/11",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-20T16:54:51.588950-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-sorteo-millas-10-cuotas-sin-interes-educacion": {
+      "titulo": "Bases Sorteo Millas - 10 cuotas sin interés Educación",
+      "tipo": "bases",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-20T16:54:51.588950-04:00",
+      "vigencia": "SEGUNDO: Mecánica y vigencia del Concurso Podrán participar en el Concurso todos los clientes que cumplan con los requisitos establecidos en la cláusula precedente y que, durante el período de vigencia del concurso, entre el 16 de noviembre y el 31 de diciembre de 2026, cumplan copulativamente con l",
+      "requisitos": "A quiénes se dirige el Concurso Podrán participar en el Concurso regulado por las presentes Bases únicamente las personas naturales que sean clientes de Banco Santander Chile, y que cumplan copulativamente con todos y cada uno de los siguientes requisitos: a) Calidad de cliente. Ser cliente de Banco Santander Chile. Adicionalmente, el cliente deberá cumplir con las siguientes condiciones: a. Ser t"
     }
   },
-  "last_check": "2026-11-19T17:09:25.522566-04:00",
+  "last_check": "2026-11-20T16:54:51.588950-04:00",
   "total": 99
 }
