@@ -1639,8 +1639,31 @@
       "first_seen": "2026-11-20T16:54:51.588950-04:00",
       "vigencia": "SEGUNDO: Mecánica y vigencia del Concurso Podrán participar en el Concurso todos los clientes que cumplan con los requisitos establecidos en la cláusula precedente y que, durante el período de vigencia del concurso, entre el 16 de noviembre y el 31 de diciembre de 2026, cumplan copulativamente con l",
       "requisitos": "A quiénes se dirige el Concurso Podrán participar en el Concurso regulado por las presentes Bases únicamente las personas naturales que sean clientes de Banco Santander Chile, y que cumplan copulativamente con todos y cada uno de los siguientes requisitos: a) Calidad de cliente. Ser cliente de Banco Santander Chile. Adicionalmente, el cliente deberá cumplir con las siguientes condiciones: a. Ser t"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/bases-invita-y-gana-cuenta-corriente-digital-santander": {
+      "titulo": "Bases Invita y Gana - Cuenta Corriente Digital Santander.",
+      "tipo": "bases",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-24T18:53:36.269691-04:00",
+      "vigencia": "TERCERO: Vigencia El periodo de vigencia de la promoción se extenderá desde las 00:00 horas del día 01 de noviembre de 2026 hasta las 23:59 horas del día 31 de diciembre de 2026 o hasta agotar un fondo promocional de $12.000.000 (doce millones de pesos chilenos).",
+      "requisitos": "A quiénes se dirige la promoción Podrán par&cipar en la Promoción regulada por las presentes Bases únicamente las personas naturales que sean clientes de Banco Santander Chile, y que cumplan copula&vamente con todos y cada uno de los siguientes requisitos: REFERIDOR • Tipo de par&cipante. Persona natural, mayor de 18 años, con cédula de iden&dad vigente. • Calidad de cliente. Ser &tular de uno de "
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-santander-arena-la-voz-kazaja-del-momento-23-11": {
+      "titulo": "Ganadores Santander Arena “La voz kazaja del momento” 23/11",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-24T18:53:36.269691-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/detalles/ganador-2-golden-ticket": {
+      "titulo": "Ganador 2° Golden Ticket",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-24T18:53:36.269691-04:00"
     }
   },
-  "last_check": "2026-11-23T20:36:20.905348-04:00",
+  "last_check": "2026-11-24T18:53:36.269691-04:00",
   "total": 99
 }
