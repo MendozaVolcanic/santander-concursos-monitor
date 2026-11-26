@@ -1662,8 +1662,17 @@
       "mes": "Noviembre",
       "anio": 2026,
       "first_seen": "2026-11-24T18:53:36.269691-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-santander-arena-maria-becerra-01-12": {
+      "titulo": "Ganadores Santander Arena “María Becerra” 01/12 Diciembre Ver ganadores",
+      "tipo": "bases",
+      "mes": null,
+      "anio": null,
+      "first_seen": "2026-11-26T18:05:42.504984-04:00",
+      "vigencia": null,
+      "requisitos": null
     }
   },
-  "last_check": "2026-11-25T18:06:53.793645-04:00",
+  "last_check": "2026-11-26T18:05:42.504984-04:00",
   "total": 99
 }
