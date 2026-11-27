@@ -1671,8 +1671,31 @@
       "first_seen": "2026-11-26T18:05:42.504984-04:00",
       "vigencia": null,
       "requisitos": null
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/sorteo-millas-3-cuotas-sin-interes-en-todo": {
+      "titulo": "Sorteo millas - 3 cuotas sin interés en todo",
+      "tipo": "bases",
+      "mes": "Diciembre",
+      "anio": 2026,
+      "first_seen": "2026-11-27T17:47:50.188125-04:00",
+      "vigencia": "SEGUNDO: Mecánica y vigencia del Concurso Podrán participar en el Concurso todos los clientes que cumplan con los requisitos establecidos en la cláusula precedente y que, durante el período de vigencia del concurso, entre el 27 de noviembre y 31 de diciembre de 2026, cumplan copulativamente con la s",
+      "requisitos": "A quiénes se dirige el Concurso Podrán participar en el Concurso regulado por las presentes Bases únicamente las personas naturales que sean clientes de Banco Santander Chile, y que cumplan copulativamente con todos y cada uno de los siguientes requisitos: a) Calidad de cliente. Ser cliente de Banco Santander Chile. Adicionalmente, el cliente deberá cumplir con las siguientes condiciones: a. Ser t"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-santander-arena-el-humor-chileno-se-toma-santander-arena-27-11": {
+      "titulo": "Ganadores Santander Arena “El humor chileno se toma Santander Arena” 27/11",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-27T17:47:50.188125-04:00"
+    },
+    "https://banco.santander.cl/informacion/resultados-de-concursos/archivos/ganadores-santander-arena-el-humor-chileno-se-toma-santander-arena-28-11": {
+      "titulo": "Ganadores Santander Arena “El humor chileno se toma Santander Arena” 28/11",
+      "tipo": "ganadores",
+      "mes": "Noviembre",
+      "anio": 2026,
+      "first_seen": "2026-11-27T17:47:50.188125-04:00"
     }
   },
-  "last_check": "2026-11-26T18:05:42.504984-04:00",
+  "last_check": "2026-11-27T17:47:50.188125-04:00",
   "total": 99
 }
